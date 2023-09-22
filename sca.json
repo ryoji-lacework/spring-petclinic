@@ -1,0 +1,5288 @@
+{
+  "SchemaVersion": 2,
+  "Metadata": {
+    "Id": "6b0269b1-1f25-4400-8bb6-5e8f3c19f0dc",
+    "InputKind": "directory",
+    "InputLocation": "/Users/ryobet/lw/spring-petclinic",
+    "InputOrigin": "Ryojis-MacBook-Pro.local",
+    "CustomProperties": {
+      "deployment": "local",
+      "version": "0.0.71"
+    },
+    "Platform": {
+      "architecture": "arm64",
+      "os": "darwin",
+      "os.version": "13.5.2",
+      "variant": "v8"
+    },
+    "Created": "2023-09-21T09:34:48.768876-04:00"
+  },
+  "RootArtifactId": "b817e4fa-210b-4255-b2f5-143ad420a4f3",
+  "Artifacts": [
+    {
+      "Id": "b817e4fa-210b-4255-b2f5-143ad420a4f3",
+      "Name": "spring-petclinic",
+      "Path": "/Users/ryobet/lw/spring-petclinic",
+      "Timestamp": "2023-08-01T16:30:48.468729529-04:00",
+      "Type": "dir",
+      "Class": "collection",
+      "Language": "none",
+      "Compare": {
+        "Hash": "26de8caa13b45cb74404a548768a7a1aabadc666"
+      },
+      "LinesOfCode": {
+        "java": 1496
+      },
+      "Children": [
+        {
+          "ArtifactId": "76b9b79e-b93a-4b61-a977-3bb1b0b1ee96"
+        }
+      ]
+    },
+    {
+      "Id": "76b9b79e-b93a-4b61-a977-3bb1b0b1ee96",
+      "Name": "spring-petclinic",
+      "Path": "pom.xml",
+      "Type": "pom",
+      "Class": "source",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831606
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.0-SNAPSHOT"
+      },
+      "Repository": "4f719d2e-6300-4a49-a8c6-5a404195e758",
+      "LastEdit": "e63add1a-644c-4151-90eb-0800371f531a",
+      "Compare": {
+        "Hash": "740fa06fb4d89280bed8b5c73d13b7a20241ce27"
+      },
+      "Files": [
+        ".mvn/wrapper/MavenWrapperDownloader.java",
+        "src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java",
+        "src/main/java/org/springframework/samples/petclinic/model/BaseEntity.java",
+        "src/main/java/org/springframework/samples/petclinic/model/NamedEntity.java",
+        "src/main/java/org/springframework/samples/petclinic/model/Person.java",
+        "src/main/java/org/springframework/samples/petclinic/model/package-info.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/Owner.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/Pet.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/PetController.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/PetType.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/PetTypeFormatter.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/PetValidator.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/Visit.java",
+        "src/main/java/org/springframework/samples/petclinic/owner/VisitController.java",
+        "src/main/java/org/springframework/samples/petclinic/system/CacheConfiguration.java",
+        "src/main/java/org/springframework/samples/petclinic/system/CrashController.java",
+        "src/main/java/org/springframework/samples/petclinic/system/WelcomeController.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/Specialty.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/Vet.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/VetController.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java",
+        "src/main/java/org/springframework/samples/petclinic/vet/Vets.java",
+        "src/test/java/org/springframework/samples/petclinic/PetClinicIntegrationTests.java",
+        "src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java",
+        "src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java",
+        "src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java",
+        "src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java",
+        "src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java",
+        "src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java",
+        "src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java",
+        "src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java",
+        "src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java",
+        "src/test/java/org/springframework/samples/petclinic/vet/VetTests.java"
+      ],
+      "Children": [
+        {
+          "ArtifactId": "fcc027ca-f13a-49bb-aaaf-9889167b2ea4",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.pom",
+              "Start": 77,
+              "End": 88
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "3a7c8bfe-cb0c-4dbd-bf02-50a63f210558",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.1/spring-boot-starter-logging-2.7.1.pom",
+              "Start": 44,
+              "End": 49
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "a0df4f7c-b063-4545-8a46-28dea0b769c6",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.pom",
+              "Start": 20,
+              "End": 24
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 6
+          }
+        },
+        {
+          "ArtifactId": "33f90a5f-25c0-4413-8b8f-4aae3a821653",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.pom",
+              "Start": 61,
+              "End": 69
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.pom",
+              "Start": 71,
+              "End": 75
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-adapter-aws/1.0.2.RELEASE/spring-cloud-function-adapter-aws-1.0.2.RELEASE.pom",
+              "Start": 113,
+              "End": 118
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "f1fd503b-ca89-4692-8629-ebfab559416f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.1/spring-boot-starter-json-2.7.1.pom",
+              "Start": 62,
+              "End": 67
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "ca95f5fd-9ff5-4134-b498-c7e18ac71532",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.1/spring-boot-actuator-autoconfigure-2.7.1.pom",
+              "Start": 68,
+              "End": 73
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "e9f73f4a-490c-440a-9c9d-c6d3cdbaf30d",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-json/2.7.1/spring-boot-starter-json-2.7.1.pom",
+              "Start": 74,
+              "End": 79
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "ca72f41e-684a-4a78-8226-54393348e7c6",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.pom",
+              "Start": 113,
+              "End": 124
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "cd550430-cbb5-4dda-93c1-8c8bc47647ee",
+          "Lines": [
+            {
+              "Start": 85,
+              "End": 89
+            }
+          ],
+          "LastEdit": "713d4788-71e6-44e5-b85e-d87fe72ec989",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "812aae6f-a1e7-4309-bf36-c01373007de0",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.pom",
+              "Start": 77,
+              "End": 81
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "119a854a-d30f-46cf-ae23-bedac2e346bd",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.pom",
+              "Start": 61,
+              "End": 64
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "e64da0a9-57ec-4e2b-80a3-2d377d109783",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.1/spring-boot-starter-jdbc-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "6ac2475c-9ec0-4c38-afbb-4674ff4c5768",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/webjars/webjars-locator-core/0.50/webjars-locator-core-0.50.pom",
+              "Start": 66,
+              "End": 70
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "35301aad-1d74-425c-8115-d6151e82cf3e",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.7.1/spring-boot-starter-actuator-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "5d16859b-a23d-4dfb-87e7-f92f5b357155",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-adapter-aws/1.0.2.RELEASE/spring-cloud-function-adapter-aws-1.0.2.RELEASE.pom",
+              "Start": 163,
+              "End": 168
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "529754c3-93c9-44fc-a625-48e8ddefa557",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.pom",
+              "Start": 33,
+              "End": 36
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "3c144312-3237-47cc-8f9e-0b7626d9073f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter/2.7.1/spring-boot-starter-2.7.1.pom",
+              "Start": 62,
+              "End": 67
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "c17da7c3-f78c-49d9-96ad-cf4eae72a6e9",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 62,
+              "End": 67
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "6f229580-695f-477a-a07a-745c33009c82",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "4517fa1b-458f-42a4-a4a6-1e641fa2fc85",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/hibernate/validator/hibernate-validator/6.2.3.Final/hibernate-validator-6.2.3.Final.pom",
+              "Start": 39,
+              "End": 42
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "34107b4e-f9e8-4a54-8e43-d4bf471cfc28",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.6/jaxb-runtime-2.3.6.pom",
+              "Start": 47,
+              "End": 50
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "30300cce-25dc-4863-bd79-594901e1a045",
+          "Lines": [
+            {
+              "Start": 102,
+              "End": 105
+            }
+          ],
+          "LastEdit": "1b415e34-f8b7-4c1b-9075-bd1bef549049",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "cfc38c3b-7c20-4b49-871d-227e9374114c",
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "97575a13-ec80-4b9b-9300-dca52749e394",
+          "Lines": [
+            {
+              "Start": 90,
+              "End": 94
+            }
+          ],
+          "LastEdit": "f8fc9b0e-c5b8-4506-b07c-76114f49b401",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "3f5dc1f8-2b05-477a-b839-7be22cb9a14c",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.pom",
+              "Start": 70,
+              "End": 75
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "9b2f64fc-8c76-466c-81d3-5b09cbd2284a",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.pom",
+              "Start": 64,
+              "End": 69
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "0dcaa5f3-555a-47db-9e93-8d082e2bfa88",
+          "Lines": [
+            {
+              "Start": 34,
+              "End": 38
+            }
+          ],
+          "LastEdit": "0ed68944-2e7c-4177-b0b1-21a876bd5408",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "91ea9119-2732-4030-95bd-27b6ac330f54",
+          "Lines": [
+            {
+              "Start": 39,
+              "End": 43
+            }
+          ],
+          "LastEdit": "e63add1a-644c-4151-90eb-0800371f531a",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "e473d230-8d1d-45fe-84c3-bde8cf532b85",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.1/spring-boot-starter-logging-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "614d641e-2f28-4291-888d-bcc701712ab0",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.1/spring-boot-starter-tomcat-2.7.1.pom",
+              "Start": 50,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "f5dc9ee0-06b9-4755-8b78-776ac1b6df27",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.7.1/spring-boot-starter-validation-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "b49687ca-2cca-426c-bb63-82b0e658fd7b",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.7.1/spring-boot-starter-tomcat-2.7.1.pom",
+              "Start": 68,
+              "End": 79
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "b4c6c769-9418-41be-abf6-481e6d90b53e",
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "6843dfeb-ab4f-4621-94f2-27d51c57558d",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.1/spring-boot-starter-aop-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "eef8cd01-c9be-41c2-91f1-1693d74d7fae",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.pom",
+              "Start": 70,
+              "End": 73
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "07a111c3-b691-4b5f-9f21-5484cdc92367",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.pom",
+              "Start": 328,
+              "End": 333
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "a7f47d59-4990-489d-81a3-a7184876e58f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/postgresql/postgresql/42.3.6/postgresql-42.3.6.pom",
+              "Start": 68,
+              "End": 73
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "5be12c4d-363f-47c2-8ea4-ee77f242a520",
+          "Lines": [
+            {
+              "Start": 106,
+              "End": 109
+            }
+          ],
+          "LastEdit": "1b415e34-f8b7-4c1b-9075-bd1bef549049",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "b66d8c10-ad23-484c-8168-3dc08c85a8c7",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/ehcache/ehcache/3.10.0/ehcache-3.10.0.pom",
+              "Start": 57,
+              "End": 62
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "c6765f73-a91f-4e97-869b-e8e5ee9c0dae",
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "0f53733e-23b1-48d5-8b9e-05f755cff40a",
+          "PathInfo": {
+            "MinDepth": 6
+          }
+        },
+        {
+          "ArtifactId": "89b8b14d-5d96-46b7-b361-d7d2d1d9c000",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.pom",
+              "Start": 137,
+              "End": 148
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "fde74fdd-ebdc-49e6-855a-46fe404b7f86",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-validation/2.7.1/spring-boot-starter-validation-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "8ed28002-5d97-4662-a50e-943386a2f5fd",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 68,
+              "End": 91
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "71282ced-74bc-4692-b79a-048512c3a33f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.pom",
+              "Start": 41,
+              "End": 52
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "d66cf9aa-70a4-4c93-8c07-6792e3e6416f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.pom",
+              "Start": 101,
+              "End": 112
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "9eebc3fe-0530-4999-8592-f6ee91ce9a02",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.pom",
+              "Start": 66,
+              "End": 69
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "a8c48947-3a7d-4994-ab44-a73918790558",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.pom",
+              "Start": 58,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "ddf33bfa-3468-4ec6-acc9-8df474837f34",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.pom",
+              "Start": 62,
+              "End": 65
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "af461c13-f49d-4852-97fa-060f3a4eda1a",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom",
+              "Start": 82,
+              "End": 87
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "663c436d-b75e-4b26-90ad-2b8141e1acc5",
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "c752ffed-311e-4cdf-ac76-b84e43dee87c",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.pom",
+              "Start": 54,
+              "End": 57
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "b3f3d5b0-770c-43cc-accd-1911751d9609",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/io/micrometer/micrometer-core/1.9.1/micrometer-core-1.9.1.pom",
+              "Start": 34,
+              "End": 45
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "b067c522-4bf1-46dc-995f-769560689dc4",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.pom",
+              "Start": 209,
+              "End": 212
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "f69fcf7d-a11c-4731-ae9e-b4ae43d0589e",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.pom",
+              "Start": 213,
+              "End": 216
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "9f7c2863-16f0-4f39-a2cd-4bec15d217c9",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/mockito/mockito-core/4.5.1/mockito-core-4.5.1.pom",
+              "Start": 76,
+              "End": 81
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "2a34a620-c485-4cd1-b572-21c57b528413",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.pom",
+              "Start": 76,
+              "End": 81
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "17a57318-07f3-4b68-a78e-7a4b9f6d2a3b",
+          "Lines": [
+            {
+              "Start": 95,
+              "End": 99
+            }
+          ],
+          "LastEdit": "f8fc9b0e-c5b8-4506-b07c-76114f49b401",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "ef357b70-ef8b-410b-aa67-66b8ebfac332",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/io/projectreactor/reactor-core/3.4.19/reactor-core-3.4.19.pom",
+              "Start": 48,
+              "End": 53
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "197f2bda-8195-4725-93ec-09ae0f7c5c20",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.7.1/spring-boot-starter-logging-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/ehcache/ehcache/3.10.0/ehcache-3.10.0.pom",
+              "Start": 51,
+              "End": 56
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "6a0af1be-4c87-4638-8904-945ee4d3fad7",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.7.1/spring-boot-starter-actuator-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "89dd9662-8dde-418e-b345-b991f7e673d7",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.7.1/spring-boot-actuator-autoconfigure-2.7.1.pom",
+              "Start": 44,
+              "End": 49
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "ef9f8c44-3954-438f-9104-0bdcd4bb007a",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-context/1.0.2.RELEASE/spring-cloud-function-context-1.0.2.RELEASE.pom",
+              "Start": 101,
+              "End": 106
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "c2c65d73-1787-43d1-af6d-3848cc553a3f",
+          "Lines": [
+            {
+              "Start": 54,
+              "End": 57
+            }
+          ],
+          "LastEdit": "97669d9c-a99b-4e42-8261-ad4c9dd00fa8",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "988a60a9-d702-4fe8-a0bd-77578d83821a",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 44,
+              "End": 49
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "5eac7d62-00e3-4ece-8d86-5b5bde5d23d3",
+          "Lines": [
+            {
+              "Start": 58,
+              "End": 61
+            }
+          ],
+          "LastEdit": "97669d9c-a99b-4e42-8261-ad4c9dd00fa8",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "d11fdd35-82e0-4b66-a948-162475414902",
+          "Lines": [
+            {
+              "Start": 62,
+              "End": 65
+            }
+          ],
+          "LastEdit": "97669d9c-a99b-4e42-8261-ad4c9dd00fa8",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "3e76e2b8-d32b-4456-8c7f-1d986d114198",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "dbfcda58-1bb0-4ee2-a080-bf948e15dad5",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.1/spring-boot-starter-web-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "97bca0be-8c4f-44ae-9967-5561a7394d6f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter/2.7.1/spring-boot-starter-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "9039ede7-5b8c-4556-abf5-b1bfde5a649e",
+          "Lines": [
+            {
+              "Start": 74,
+              "End": 77
+            }
+          ],
+          "LastEdit": "97669d9c-a99b-4e42-8261-ad4c9dd00fa8",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "a1eff87b-3251-4b69-98bc-d04a0aa1e0d7",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.1/spring-boot-starter-web-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "90add9b8-cca3-4922-afcc-341214af7913",
+          "Lines": [
+            {
+              "Start": 70,
+              "End": 73
+            }
+          ],
+          "LastEdit": "2fe1e598-356e-4a51-990e-f1d38a42bf75",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "21ff6228-0506-404a-9102-e36daaed24fe",
+          "Lines": [
+            {
+              "Start": 66,
+              "End": 69
+            }
+          ],
+          "LastEdit": "2fe1e598-356e-4a51-990e-f1d38a42bf75",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "fe0dcfea-a3ae-4814-81a0-80f85239e1fa",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-adapter-aws/1.0.2.RELEASE/spring-cloud-function-adapter-aws-1.0.2.RELEASE.pom",
+              "Start": 119,
+              "End": 130
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "35234467-ea57-4157-b6e9-882907635205",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter/2.7.1/spring-boot-starter-2.7.1.pom",
+              "Start": 44,
+              "End": 49
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "81cc5a59-d4aa-41a2-8635-fb4c9e80d992",
+          "Lines": [
+            {
+              "Start": 47,
+              "End": 51
+            }
+          ],
+          "LastEdit": "e63add1a-644c-4151-90eb-0800371f531a",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "58c8fc64-de09-466c-9713-dc8f68bb8662",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-adapter-aws/1.0.2.RELEASE/spring-cloud-function-adapter-aws-1.0.2.RELEASE.pom",
+              "Start": 101,
+              "End": 106
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "adbb5f87-147a-4cf6-be68-58413889ee02",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-context/1.0.2.RELEASE/spring-cloud-function-context-1.0.2.RELEASE.pom",
+              "Start": 107,
+              "End": 112
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "2f8a39fc-9944-4851-8d89-803dce09989e",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/data/spring-data-jpa/2.7.1/spring-data-jpa-2.7.1.pom",
+              "Start": 182,
+              "End": 186
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "0549ba83-1ab5-40b1-8a58-aa0a5c7e9d16",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 92,
+              "End": 97
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "d5c0c57e-8da3-476d-bdc6-505f5e1637e4",
+          "PathInfo": {
+            "MinDepth": 1
+          }
+        },
+        {
+          "ArtifactId": "c200e5de-1425-4d54-9b15-d2ebf5148a71",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.7.1/spring-boot-starter-aop-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "a84463eb-a203-4a32-8664-fecb997bd6eb",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.7.1/spring-boot-starter-data-jpa-2.7.1.pom",
+              "Start": 98,
+              "End": 103
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/spring-web/5.3.21/spring-web-5.3.21.pom",
+              "Start": 43,
+              "End": 48
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "fc3eeb43-c1bc-44ec-a49d-472be31667e5",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-cache/2.7.1/spring-boot-starter-cache-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "514523a0-bb6d-4371-b6dd-2a29bfced16f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/spring-context-support/5.3.21/spring-context-support-5.3.21.pom",
+              "Start": 49,
+              "End": 54
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/spring-web/5.3.21/spring-web-5.3.21.pom",
+              "Start": 49,
+              "End": 54
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "a95f9c4f-cc53-43a1-8181-0608d76f9451",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/spring-webmvc/5.3.21/spring-webmvc-5.3.21.pom",
+              "Start": 67,
+              "End": 72
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "690569f8-e5a5-4730-bd56-fc1ea3845f51",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/spring-core/5.3.21/spring-core-5.3.21.pom",
+              "Start": 43,
+              "End": 48
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "7b114a0d-a844-4938-98e3-109d65172158",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.7.1/spring-boot-starter-jdbc-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "358a3e55-8f29-4706-9747-f7488c364898",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-context/1.0.2.RELEASE/spring-cloud-function-context-1.0.2.RELEASE.pom",
+              "Start": 113,
+              "End": 118
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "8ba3c9fb-b93c-48ed-a9df-276bd7457869",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/data/spring-data-jpa/2.7.1/spring-data-jpa-2.7.1.pom",
+              "Start": 188,
+              "End": 191
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "a1ea6ee7-4b24-423a-9b6a-bd395c2ee96f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/data/spring-data-jpa/2.7.1/spring-data-jpa-2.7.1.pom",
+              "Start": 203,
+              "End": 206
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/cloud/spring-cloud-function-adapter-aws/1.0.2.RELEASE/spring-cloud-function-adapter-aws-1.0.2.RELEASE.pom",
+              "Start": 107,
+              "End": 112
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "4e1d1185-9b21-4e2c-9021-3e7b4743b5de",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-web/2.7.1/spring-boot-starter-web-2.7.1.pom",
+              "Start": 68,
+              "End": 73
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "8054f265-75f0-4efd-bb46-80d92b3ec730",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.7.1/spring-boot-starter-thymeleaf-2.7.1.pom",
+              "Start": 56,
+              "End": 61
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "03a78baf-4838-4404-a950-a5493f1bad17",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter-thymeleaf/2.7.1/spring-boot-starter-thymeleaf-2.7.1.pom",
+              "Start": 50,
+              "End": 55
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 3
+          }
+        },
+        {
+          "ArtifactId": "98d4f30a-ec62-4973-860c-38d493f27406",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.pom",
+              "Start": 316,
+              "End": 327
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        },
+        {
+          "ArtifactId": "f0dc4804-7d2b-4ede-b647-abedf6f39ce8",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.pom",
+              "Start": 335,
+              "End": 340
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 5
+          }
+        },
+        {
+          "ArtifactId": "fe33554d-010b-4112-bed4-e8b21be307ca",
+          "Lines": [
+            {
+              "Start": 116,
+              "End": 120
+            }
+          ],
+          "LastEdit": "ad409b72-e57c-47da-9f1d-5d41ceba6092",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "be1efbb4-7d1c-4864-ab57-be3d71db2bb9",
+          "Lines": [
+            {
+              "Start": 121,
+              "End": 125
+            }
+          ],
+          "LastEdit": "3dc8379d-a502-48b6-982c-5bc8f330cdf5",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "90e8d45d-21ca-4857-818c-a82ecb1acd22",
+          "Lines": [
+            {
+              "Start": 112,
+              "End": 115
+            }
+          ],
+          "LastEdit": "fca5b12e-9f5b-4cbf-8dbc-8dec461ce9b9",
+          "PathInfo": {
+            "MinDepth": 2
+          }
+        },
+        {
+          "ArtifactId": "55e40a60-c91f-4eba-aa39-dc596ad4ac4f",
+          "Lines": [
+            {
+              "RelativePath": "../../.m2/repository/org/springframework/boot/spring-boot-starter/2.7.1/spring-boot-starter-2.7.1.pom",
+              "Start": 74,
+              "End": 79
+            }
+          ],
+          "PathInfo": {
+            "MinDepth": 4
+          }
+        }
+      ],
+      "Graph": [
+        {
+          "From": "76b9b79e-b93a-4b61-a977-3bb1b0b1ee96",
+          "To": [
+            "d5c0c57e-8da3-476d-bdc6-505f5e1637e4"
+          ]
+        },
+        {
+          "From": "d5c0c57e-8da3-476d-bdc6-505f5e1637e4",
+          "To": [
+            "0dcaa5f3-555a-47db-9e93-8d082e2bfa88",
+            "17a57318-07f3-4b68-a78e-7a4b9f6d2a3b",
+            "21ff6228-0506-404a-9102-e36daaed24fe",
+            "30300cce-25dc-4863-bd79-594901e1a045",
+            "5be12c4d-363f-47c2-8ea4-ee77f242a520",
+            "5eac7d62-00e3-4ece-8d86-5b5bde5d23d3",
+            "81cc5a59-d4aa-41a2-8635-fb4c9e80d992",
+            "9039ede7-5b8c-4556-abf5-b1bfde5a649e",
+            "90add9b8-cca3-4922-afcc-341214af7913",
+            "90e8d45d-21ca-4857-818c-a82ecb1acd22",
+            "91ea9119-2732-4030-95bd-27b6ac330f54",
+            "97575a13-ec80-4b9b-9300-dca52749e394",
+            "be1efbb4-7d1c-4864-ab57-be3d71db2bb9",
+            "c2c65d73-1787-43d1-af6d-3848cc553a3f",
+            "cd550430-cbb5-4dda-93c1-8c8bc47647ee",
+            "d11fdd35-82e0-4b66-a948-162475414902",
+            "fe33554d-010b-4112-bed4-e8b21be307ca"
+          ]
+        },
+        {
+          "From": "0dcaa5f3-555a-47db-9e93-8d082e2bfa88",
+          "To": [
+            "9eebc3fe-0530-4999-8592-f6ee91ce9a02",
+            "a8c48947-3a7d-4994-ab44-a73918790558",
+            "c752ffed-311e-4cdf-ac76-b84e43dee87c",
+            "ddf33bfa-3468-4ec6-acc9-8df474837f34",
+            "eef8cd01-c9be-41c2-91f1-1693d74d7fae"
+          ]
+        },
+        {
+          "From": "17a57318-07f3-4b68-a78e-7a4b9f6d2a3b",
+          "To": [
+            "a7f47d59-4990-489d-81a3-a7184876e58f"
+          ]
+        },
+        {
+          "From": "21ff6228-0506-404a-9102-e36daaed24fe",
+          "To": [
+            "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+            "4e1d1185-9b21-4e2c-9021-3e7b4743b5de",
+            "a1eff87b-3251-4b69-98bc-d04a0aa1e0d7",
+            "dbfcda58-1bb0-4ee2-a080-bf948e15dad5",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "5be12c4d-363f-47c2-8ea4-ee77f242a520",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "30300cce-25dc-4863-bd79-594901e1a045",
+            "b66d8c10-ad23-484c-8168-3dc08c85a8c7"
+          ]
+        },
+        {
+          "From": "5eac7d62-00e3-4ece-8d86-5b5bde5d23d3",
+          "To": [
+            "fc3eeb43-c1bc-44ec-a49d-472be31667e5",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "81cc5a59-d4aa-41a2-8635-fb4c9e80d992",
+          "To": [
+            "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+            "58c8fc64-de09-466c-9713-dc8f68bb8662",
+            "5d16859b-a23d-4dfb-87e7-f92f5b357155",
+            "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "9039ede7-5b8c-4556-abf5-b1bfde5a649e",
+          "To": [
+            "03a78baf-4838-4404-a950-a5493f1bad17",
+            "8054f265-75f0-4efd-bb46-80d92b3ec730",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "90add9b8-cca3-4922-afcc-341214af7913",
+          "To": [
+            "f5dc9ee0-06b9-4755-8b78-776ac1b6df27",
+            "fde74fdd-ebdc-49e6-855a-46fe404b7f86",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "90e8d45d-21ca-4857-818c-a82ecb1acd22",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "6ac2475c-9ec0-4c38-afbb-4674ff4c5768",
+            "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe"
+          ]
+        },
+        {
+          "From": "91ea9119-2732-4030-95bd-27b6ac330f54",
+          "To": [
+            "0dcaa5f3-555a-47db-9e93-8d082e2bfa88",
+            "9eebc3fe-0530-4999-8592-f6ee91ce9a02",
+            "b067c522-4bf1-46dc-995f-769560689dc4",
+            "c752ffed-311e-4cdf-ac76-b84e43dee87c",
+            "ddf33bfa-3468-4ec6-acc9-8df474837f34",
+            "f69fcf7d-a11c-4731-ae9e-b4ae43d0589e"
+          ]
+        },
+        {
+          "From": "c2c65d73-1787-43d1-af6d-3848cc553a3f",
+          "To": [
+            "35301aad-1d74-425c-8115-d6151e82cf3e",
+            "6a0af1be-4c87-4638-8904-945ee4d3fad7",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "d11fdd35-82e0-4b66-a948-162475414902",
+          "To": [
+            "0549ba83-1ab5-40b1-8a58-aa0a5c7e9d16",
+            "3e76e2b8-d32b-4456-8c7f-1d986d114198",
+            "6f229580-695f-477a-a07a-745c33009c82",
+            "8ed28002-5d97-4662-a50e-943386a2f5fd",
+            "988a60a9-d702-4fe8-a0bd-77578d83821a",
+            "a84463eb-a203-4a32-8664-fecb997bd6eb",
+            "c17da7c3-f78c-49d9-96ad-cf4eae72a6e9"
+          ]
+        },
+        {
+          "From": "03a78baf-4838-4404-a950-a5493f1bad17",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "98d4f30a-ec62-4973-860c-38d493f27406"
+          ]
+        },
+        {
+          "From": "0549ba83-1ab5-40b1-8a58-aa0a5c7e9d16",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "2f8a39fc-9944-4851-8d89-803dce09989e",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "514523a0-bb6d-4371-b6dd-2a29bfced16f",
+            "8ba3c9fb-b93c-48ed-a9df-276bd7457869",
+            "a1ea6ee7-4b24-423a-9b6a-bd395c2ee96f",
+            "c200e5de-1425-4d54-9b15-d2ebf5148a71"
+          ]
+        },
+        {
+          "From": "35301aad-1d74-425c-8115-d6151e82cf3e",
+          "To": [
+            "b3f3d5b0-770c-43cc-accd-1911751d9609"
+          ]
+        },
+        {
+          "From": "3e76e2b8-d32b-4456-8c7f-1d986d114198",
+          "To": [
+            "7b114a0d-a844-4938-98e3-109d65172158",
+            "e64da0a9-57ec-4e2b-80a3-2d377d109783",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "4e1d1185-9b21-4e2c-9021-3e7b4743b5de",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+            "514523a0-bb6d-4371-b6dd-2a29bfced16f",
+            "a95f9c4f-cc53-43a1-8181-0608d76f9451",
+            "c200e5de-1425-4d54-9b15-d2ebf5148a71"
+          ]
+        },
+        {
+          "From": "58c8fc64-de09-466c-9713-dc8f68bb8662",
+          "To": [
+            "358a3e55-8f29-4706-9747-f7488c364898",
+            "adbb5f87-147a-4cf6-be68-58413889ee02",
+            "ef9f8c44-3954-438f-9104-0bdcd4bb007a"
+          ]
+        },
+        {
+          "From": "5d16859b-a23d-4dfb-87e7-f92f5b357155",
+          "To": [
+            "ef357b70-ef8b-410b-aa67-66b8ebfac332"
+          ]
+        },
+        {
+          "From": "6a0af1be-4c87-4638-8904-945ee4d3fad7",
+          "To": [
+            "35234467-ea57-4157-b6e9-882907635205",
+            "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+            "89dd9662-8dde-418e-b345-b991f7e673d7",
+            "ca95f5fd-9ff5-4134-b498-c7e18ac71532",
+            "ef9f8c44-3954-438f-9104-0bdcd4bb007a"
+          ]
+        },
+        {
+          "From": "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+          "To": [
+            "33f90a5f-25c0-4413-8b8f-4aae3a821653",
+            "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe"
+          ]
+        },
+        {
+          "From": "8054f265-75f0-4efd-bb46-80d92b3ec730",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "98d4f30a-ec62-4973-860c-38d493f27406"
+          ]
+        },
+        {
+          "From": "8ed28002-5d97-4662-a50e-943386a2f5fd",
+          "To": [
+            "71282ced-74bc-4692-b79a-048512c3a33f",
+            "89b8b14d-5d96-46b7-b361-d7d2d1d9c000",
+            "9b2f64fc-8c76-466c-81d3-5b09cbd2284a",
+            "b66d8c10-ad23-484c-8168-3dc08c85a8c7",
+            "ca72f41e-684a-4a78-8226-54393348e7c6",
+            "d66cf9aa-70a4-4c93-8c07-6792e3e6416f",
+            "fcc027ca-f13a-49bb-aaaf-9889167b2ea4"
+          ]
+        },
+        {
+          "From": "988a60a9-d702-4fe8-a0bd-77578d83821a",
+          "To": [
+            "6843dfeb-ab4f-4621-94f2-27d51c57558d",
+            "c200e5de-1425-4d54-9b15-d2ebf5148a71",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "9eebc3fe-0530-4999-8592-f6ee91ce9a02",
+          "To": [
+            "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+            "663c436d-b75e-4b26-90ad-2b8141e1acc5",
+            "b4c6c769-9418-41be-abf6-481e6d90b53e"
+          ]
+        },
+        {
+          "From": "a1eff87b-3251-4b69-98bc-d04a0aa1e0d7",
+          "To": [
+            "3c144312-3237-47cc-8f9e-0b7626d9073f",
+            "614d641e-2f28-4291-888d-bcc701712ab0",
+            "b49687ca-2cca-426c-bb63-82b0e658fd7b",
+            "f5dc9ee0-06b9-4755-8b78-776ac1b6df27"
+          ]
+        },
+        {
+          "From": "a84463eb-a203-4a32-8664-fecb997bd6eb",
+          "To": [
+            "6843dfeb-ab4f-4621-94f2-27d51c57558d"
+          ]
+        },
+        {
+          "From": "a8c48947-3a7d-4994-ab44-a73918790558",
+          "To": [
+            "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+            "b4c6c769-9418-41be-abf6-481e6d90b53e",
+            "cfc38c3b-7c20-4b49-871d-227e9374114c"
+          ]
+        },
+        {
+          "From": "b067c522-4bf1-46dc-995f-769560689dc4",
+          "To": [
+            "3f5dc1f8-2b05-477a-b839-7be22cb9a14c",
+            "9b2f64fc-8c76-466c-81d3-5b09cbd2284a",
+            "9f7c2863-16f0-4f39-a2cd-4bec15d217c9"
+          ]
+        },
+        {
+          "From": "b66d8c10-ad23-484c-8168-3dc08c85a8c7",
+          "To": [
+            "119a854a-d30f-46cf-ae23-bedac2e346bd",
+            "34107b4e-f9e8-4a54-8e43-d4bf471cfc28",
+            "812aae6f-a1e7-4309-bf36-c01373007de0"
+          ]
+        },
+        {
+          "From": "c752ffed-311e-4cdf-ac76-b84e43dee87c",
+          "To": [
+            "663c436d-b75e-4b26-90ad-2b8141e1acc5",
+            "b4c6c769-9418-41be-abf6-481e6d90b53e",
+            "cfc38c3b-7c20-4b49-871d-227e9374114c"
+          ]
+        },
+        {
+          "From": "dbfcda58-1bb0-4ee2-a080-bf948e15dad5",
+          "To": [
+            "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+            "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+            "ca95f5fd-9ff5-4134-b498-c7e18ac71532",
+            "e9f73f4a-490c-440a-9c9d-c6d3cdbaf30d",
+            "f1fd503b-ca89-4692-8629-ebfab559416f",
+            "fe0dcfea-a3ae-4814-81a0-80f85239e1fa"
+          ]
+        },
+        {
+          "From": "ddf33bfa-3468-4ec6-acc9-8df474837f34",
+          "To": [
+            "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+            "b4c6c769-9418-41be-abf6-481e6d90b53e"
+          ]
+        },
+        {
+          "From": "f69fcf7d-a11c-4731-ae9e-b4ae43d0589e",
+          "To": [
+            "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+            "b067c522-4bf1-46dc-995f-769560689dc4"
+          ]
+        },
+        {
+          "From": "fc3eeb43-c1bc-44ec-a49d-472be31667e5",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "514523a0-bb6d-4371-b6dd-2a29bfced16f"
+          ]
+        },
+        {
+          "From": "fde74fdd-ebdc-49e6-855a-46fe404b7f86",
+          "To": [
+            "4517fa1b-458f-42a4-a4a6-1e641fa2fc85",
+            "71282ced-74bc-4692-b79a-048512c3a33f",
+            "ca72f41e-684a-4a78-8226-54393348e7c6"
+          ]
+        },
+        {
+          "From": "fe0dcfea-a3ae-4814-81a0-80f85239e1fa",
+          "To": [
+            "35234467-ea57-4157-b6e9-882907635205",
+            "3c144312-3237-47cc-8f9e-0b7626d9073f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "55e40a60-c91f-4eba-aa39-dc596ad4ac4f",
+            "97bca0be-8c4f-44ae-9967-5561a7394d6f",
+            "ef9f8c44-3954-438f-9104-0bdcd4bb007a"
+          ]
+        },
+        {
+          "From": "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+          "To": [
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "2f8a39fc-9944-4851-8d89-803dce09989e",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "34107b4e-f9e8-4a54-8e43-d4bf471cfc28",
+          "To": [
+            "529754c3-93c9-44fc-a625-48e8ddefa557"
+          ]
+        },
+        {
+          "From": "35234467-ea57-4157-b6e9-882907635205",
+          "To": [
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "514523a0-bb6d-4371-b6dd-2a29bfced16f"
+          ]
+        },
+        {
+          "From": "358a3e55-8f29-4706-9747-f7488c364898",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+          "To": [
+            "690569f8-e5a5-4730-bd56-fc1ea3845f51"
+          ]
+        },
+        {
+          "From": "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+          "To": [
+            "2a34a620-c485-4cd1-b572-21c57b528413",
+            "af461c13-f49d-4852-97fa-060f3a4eda1a",
+            "b4c6c769-9418-41be-abf6-481e6d90b53e"
+          ]
+        },
+        {
+          "From": "514523a0-bb6d-4371-b6dd-2a29bfced16f",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "a95f9c4f-cc53-43a1-8181-0608d76f9451",
+            "c200e5de-1425-4d54-9b15-d2ebf5148a71"
+          ]
+        },
+        {
+          "From": "663c436d-b75e-4b26-90ad-2b8141e1acc5",
+          "To": [
+            "2a34a620-c485-4cd1-b572-21c57b528413",
+            "af461c13-f49d-4852-97fa-060f3a4eda1a",
+            "b4c6c769-9418-41be-abf6-481e6d90b53e"
+          ]
+        },
+        {
+          "From": "7b114a0d-a844-4938-98e3-109d65172158",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "a1ea6ee7-4b24-423a-9b6a-bd395c2ee96f"
+          ]
+        },
+        {
+          "From": "89b8b14d-5d96-46b7-b361-d7d2d1d9c000",
+          "To": [
+            "71282ced-74bc-4692-b79a-048512c3a33f"
+          ]
+        },
+        {
+          "From": "89dd9662-8dde-418e-b345-b991f7e673d7",
+          "To": [
+            "35234467-ea57-4157-b6e9-882907635205"
+          ]
+        },
+        {
+          "From": "8ba3c9fb-b93c-48ed-a9df-276bd7457869",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "7b114a0d-a844-4938-98e3-109d65172158",
+            "a1ea6ee7-4b24-423a-9b6a-bd395c2ee96f"
+          ]
+        },
+        {
+          "From": "97bca0be-8c4f-44ae-9967-5561a7394d6f",
+          "To": [
+            "197f2bda-8195-4725-93ec-09ae0f7c5c20",
+            "3a7c8bfe-cb0c-4dbd-bf02-50a63f210558",
+            "e473d230-8d1d-45fe-84c3-bde8cf532b85"
+          ]
+        },
+        {
+          "From": "98d4f30a-ec62-4973-860c-38d493f27406",
+          "To": [
+            "07a111c3-b691-4b5f-9f21-5484cdc92367",
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "f0dc4804-7d2b-4ede-b647-abedf6f39ce8"
+          ]
+        },
+        {
+          "From": "a1ea6ee7-4b24-423a-9b6a-bd395c2ee96f",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "a95f9c4f-cc53-43a1-8181-0608d76f9451",
+          "To": [
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "adbb5f87-147a-4cf6-be68-58413889ee02",
+          "To": [
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+            "5d16859b-a23d-4dfb-87e7-f92f5b357155"
+          ]
+        },
+        {
+          "From": "b49687ca-2cca-426c-bb63-82b0e658fd7b",
+          "To": [
+            "614d641e-2f28-4291-888d-bcc701712ab0"
+          ]
+        },
+        {
+          "From": "c200e5de-1425-4d54-9b15-d2ebf5148a71",
+          "To": [
+            "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+            "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+          ]
+        },
+        {
+          "From": "ca95f5fd-9ff5-4134-b498-c7e18ac71532",
+          "To": [
+            "33f90a5f-25c0-4413-8b8f-4aae3a821653",
+            "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+            "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe"
+          ]
+        },
+        {
+          "From": "cfc38c3b-7c20-4b49-871d-227e9374114c",
+          "To": [
+            "c6765f73-a91f-4e97-869b-e8e5ee9c0dae"
+          ]
+        },
+        {
+          "From": "e64da0a9-57ec-4e2b-80a3-2d377d109783",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278"
+          ]
+        },
+        {
+          "From": "e9f73f4a-490c-440a-9c9d-c6d3cdbaf30d",
+          "To": [
+            "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+            "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe"
+          ]
+        },
+        {
+          "From": "ef9f8c44-3954-438f-9104-0bdcd4bb007a",
+          "To": [
+            "35234467-ea57-4157-b6e9-882907635205"
+          ]
+        },
+        {
+          "From": "f1fd503b-ca89-4692-8629-ebfab559416f",
+          "To": [
+            "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+            "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe"
+          ]
+        },
+        {
+          "From": "197f2bda-8195-4725-93ec-09ae0f7c5c20",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278"
+          ]
+        },
+        {
+          "From": "3a7c8bfe-cb0c-4dbd-bf02-50a63f210558",
+          "To": [
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "a0df4f7c-b063-4545-8a46-28dea0b769c6"
+          ]
+        },
+        {
+          "From": "af461c13-f49d-4852-97fa-060f3a4eda1a",
+          "To": [
+            "b4c6c769-9418-41be-abf6-481e6d90b53e"
+          ]
+        },
+        {
+          "From": "c6765f73-a91f-4e97-869b-e8e5ee9c0dae",
+          "To": [
+            "0f53733e-23b1-48d5-8b9e-05f755cff40a"
+          ]
+        },
+        {
+          "From": "e473d230-8d1d-45fe-84c3-bde8cf532b85",
+          "To": [
+            "0dcaa5f3-555a-47db-9e93-8d082e2bfa88",
+            "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+            "9eebc3fe-0530-4999-8592-f6ee91ce9a02",
+            "c752ffed-311e-4cdf-ac76-b84e43dee87c"
+          ]
+        }
+      ]
+    },
+    {
+      "Id": "fcc027ca-f13a-49bb-aaaf-9889167b2ea4",
+      "Name": "antlr:antlr",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.7"
+      },
+      "Purl": "pkg:maven/antlr/antlr@2.7.7",
+      "Compare": {
+        "Hash": "45d3df93371f2e34a8240f4b179f0a6448a0ce0c"
+      }
+    },
+    {
+      "Id": "3a7c8bfe-cb0c-4dbd-bf02-50a63f210558",
+      "Name": "ch.qos.logback:logback-classic",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.2.11"
+      },
+      "Purl": "pkg:maven/ch.qos.logback/logback-classic@1.2.11",
+      "Compare": {
+        "Hash": "bb8c3c1653827b34bb52ab6124fbffbe5b0f1c29"
+      }
+    },
+    {
+      "Id": "a0df4f7c-b063-4545-8a46-28dea0b769c6",
+      "Name": "ch.qos.logback:logback-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.2.11"
+      },
+      "Purl": "pkg:maven/ch.qos.logback/logback-core@1.2.11",
+      "Compare": {
+        "Hash": "e80b23f4f32d95c5a54200d9abd35ea039cd70b2"
+      }
+    },
+    {
+      "Id": "33f90a5f-25c0-4413-8b8f-4aae3a821653",
+      "Name": "com.fasterxml.jackson.core:jackson-annotations",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.13.3"
+      },
+      "Purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.13.3",
+      "Compare": {
+        "Hash": "44dd77cf9a2193660e00ae75b445567fe670dec8"
+      }
+    },
+    {
+      "Id": "c65f4f72-5550-47ec-a53e-09b9bc8e3cbe",
+      "Name": "com.fasterxml.jackson.core:jackson-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.13.3"
+      },
+      "Purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.13.3",
+      "Compare": {
+        "Hash": "ee2b777cff82d0d41bb150aeadbbdac0987479b4"
+      }
+    },
+    {
+      "Id": "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf",
+      "Name": "com.fasterxml.jackson.core:jackson-databind",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.13.3"
+      },
+      "Purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.13.3",
+      "Compare": {
+        "Hash": "31d24b2f9587021dd51928d35ac539fb32ae1be8"
+      }
+    },
+    {
+      "Id": "f1fd503b-ca89-4692-8629-ebfab559416f",
+      "Name": "com.fasterxml.jackson.datatype:jackson-datatype-jdk8",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.13.3"
+      },
+      "Purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.13.3",
+      "Compare": {
+        "Hash": "d338d2069537a3148d971ebbf9fb40b4a42bf18c"
+      }
+    },
+    {
+      "Id": "ca95f5fd-9ff5-4134-b498-c7e18ac71532",
+      "Name": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 1
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.13.3"
+      },
+      "Purl": "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jsr310@2.13.3",
+      "Compare": {
+        "Hash": "40a5ba80305532401d036009df9b12132538de09"
+      }
+    },
+    {
+      "Id": "e9f73f4a-490c-440a-9c9d-c6d3cdbaf30d",
+      "Name": "com.fasterxml.jackson.module:jackson-module-parameter-names",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.13.3"
+      },
+      "Purl": "pkg:maven/com.fasterxml.jackson.module/jackson-module-parameter-names@2.13.3",
+      "Compare": {
+        "Hash": "e9ae05143839a2017ee80cb9903affbd5375945d"
+      }
+    },
+    {
+      "Id": "ca72f41e-684a-4a78-8226-54393348e7c6",
+      "Name": "com.fasterxml:classmate",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 1
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.5.1"
+      },
+      "Purl": "pkg:maven/com.fasterxml/classmate@1.5.1",
+      "Compare": {
+        "Hash": "67f2cbe2150a27eb6957ed3b6e37c7fd8a77d497"
+      }
+    },
+    {
+      "Id": "cd550430-cbb5-4dda-93c1-8c8bc47647ee",
+      "Name": "com.h2database:h2",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.1.214"
+      },
+      "Purl": "pkg:maven/com.h2database/h2@2.1.214",
+      "Compare": {
+        "Hash": "959171386330f1877e9953bfa2cdb3a59a05d96f"
+      }
+    },
+    {
+      "Id": "812aae6f-a1e7-4309-bf36-c01373007de0",
+      "Name": "com.sun.activation:jakarta.activation",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "BSD-3-Clause",
+              "Confidence": 0.9858491
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.2.2"
+      },
+      "Purl": "pkg:maven/com.sun.activation/jakarta.activation@1.2.2",
+      "Compare": {
+        "Hash": "432f3a18d23a552e6f82d317e0a0fdd71a33ca7f"
+      }
+    },
+    {
+      "Id": "119a854a-d30f-46cf-ae23-bedac2e346bd",
+      "Name": "com.sun.istack:istack-commons-runtime",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "BSD-3-Clause",
+              "Confidence": 0.9858491
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.0.12"
+      },
+      "Purl": "pkg:maven/com.sun.istack/istack-commons-runtime@3.0.12",
+      "Compare": {
+        "Hash": "ef7c514d166af9112a3f31a9d5d2fec5d459e172"
+      }
+    },
+    {
+      "Id": "e64da0a9-57ec-4e2b-80a3-2d377d109783",
+      "Name": "com.zaxxer:HikariCP",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "4.0.3"
+      },
+      "Purl": "pkg:maven/com.zaxxer/HikariCP@4.0.3",
+      "Compare": {
+        "Hash": "afbd048a77a5c44e11d1d6ee9eaef09c12508ff8"
+      }
+    },
+    {
+      "Id": "6ac2475c-9ec0-4c38-afbb-4674ff4c5768",
+      "Name": "io.github.classgraph:classgraph",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "4.8.139"
+      },
+      "Purl": "pkg:maven/io.github.classgraph/classgraph@4.8.139",
+      "Compare": {
+        "Hash": "a9964dd57fd8f8b508f0efc0e0cfd5e3567f2f37"
+      }
+    },
+    {
+      "Id": "35301aad-1d74-425c-8115-d6151e82cf3e",
+      "Name": "io.micrometer:micrometer-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831606
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.9.1"
+      },
+      "Purl": "pkg:maven/io.micrometer/micrometer-core@1.9.1",
+      "Compare": {
+        "Hash": "15d580133c83a411e6fbb335d5c05aef49e5ec9b"
+      }
+    },
+    {
+      "Id": "5d16859b-a23d-4dfb-87e7-f92f5b357155",
+      "Name": "io.projectreactor:reactor-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "3.4.19"
+      },
+      "Purl": "pkg:maven/io.projectreactor/reactor-core@3.4.19",
+      "Compare": {
+        "Hash": "2ebd4383a4729240d76623658bcc04ed782745c1"
+      }
+    },
+    {
+      "Id": "529754c3-93c9-44fc-a625-48e8ddefa557",
+      "Name": "jakarta.activation:jakarta.activation-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "BSD-3-Clause",
+              "Confidence": 0.9858491
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.2.2"
+      },
+      "Purl": "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2",
+      "Compare": {
+        "Hash": "7d72ec160eaca0928c4bb9613b6d31aa21017143"
+      }
+    },
+    {
+      "Id": "3c144312-3237-47cc-8f9e-0b7626d9073f",
+      "Name": "jakarta.annotation:jakarta.annotation-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.9995252
+            },
+            {
+              "Name": "GPL-2.0-or-later",
+              "Confidence": 0.9891045
+            },
+            {
+              "Name": "GPL-2.0",
+              "Confidence": 0.9891045
+            },
+            {
+              "Name": "GPL-2.0-only",
+              "Confidence": 0.98876405
+            },
+            {
+              "Name": "GPL-2.0+",
+              "Confidence": 0.97138965
+            },
+            {
+              "Name": "GPL-2.0-with-classpath-exception",
+              "Confidence": 0.9371069
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.3.5"
+      },
+      "Purl": "pkg:maven/jakarta.annotation/jakarta.annotation-api@1.3.5",
+      "Compare": {
+        "Hash": "a0cf4a41276523a3e12ea4dedf423c66145a43ae"
+      }
+    },
+    {
+      "Id": "c17da7c3-f78c-49d9-96ad-cf4eae72a6e9",
+      "Name": "jakarta.persistence:jakarta.persistence-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.2.3"
+      },
+      "Purl": "pkg:maven/jakarta.persistence/jakarta.persistence-api@2.2.3",
+      "Compare": {
+        "Hash": "942540c600e0c96665714dcaa2b56dcb7d1608a3"
+      }
+    },
+    {
+      "Id": "6f229580-695f-477a-a07a-745c33009c82",
+      "Name": "jakarta.transaction:jakarta.transaction-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.3.3"
+      },
+      "Purl": "pkg:maven/jakarta.transaction/jakarta.transaction-api@1.3.3",
+      "Compare": {
+        "Hash": "ae258d54bf201b791710f59519150e1ab7609ca3"
+      }
+    },
+    {
+      "Id": "4517fa1b-458f-42a4-a4a6-1e641fa2fc85",
+      "Name": "jakarta.validation:jakarta.validation-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.0.2"
+      },
+      "Purl": "pkg:maven/jakarta.validation/jakarta.validation-api@2.0.2",
+      "Compare": {
+        "Hash": "c18428ed88706184551333508ea5d596b3943f29"
+      }
+    },
+    {
+      "Id": "34107b4e-f9e8-4a54-8e43-d4bf471cfc28",
+      "Name": "jakarta.xml.bind:jakarta.xml.bind-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "BSD-3-Clause",
+              "Confidence": 0.9858491
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.3.3"
+      },
+      "Purl": "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3",
+      "Compare": {
+        "Hash": "6dfcbb1e234857e975d2cf75b1c10b61a37ed6b1"
+      }
+    },
+    {
+      "Id": "30300cce-25dc-4863-bd79-594901e1a045",
+      "Name": "javax.cache:cache-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.1.1"
+      },
+      "Purl": "pkg:maven/javax.cache/cache-api@1.1.1",
+      "Compare": {
+        "Hash": "fe3d7fa481b3d3cb83562ad32aaa9940bc067fc0"
+      }
+    },
+    {
+      "Id": "cfc38c3b-7c20-4b49-871d-227e9374114c",
+      "Name": "junit:junit",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "4.13.2"
+      },
+      "Purl": "pkg:maven/junit/junit@4.13.2",
+      "Compare": {
+        "Hash": "2e10ee9b7ae057f67f4cf03d8a1a0b10186ee4d3"
+      }
+    },
+    {
+      "Id": "97575a13-ec80-4b9b-9300-dca52749e394",
+      "Name": "mysql:mysql-connector-java",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 1
+            },
+            {
+              "Name": "Unicode-TOU",
+              "Confidence": 1
+            },
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.9995252
+            },
+            {
+              "Name": "GPL-2.0-or-later",
+              "Confidence": 0.98737204
+            },
+            {
+              "Name": "GPL-2.0",
+              "Confidence": 0.98737204
+            },
+            {
+              "Name": "GPL-2.0-only",
+              "Confidence": 0.98668945
+            },
+            {
+              "Name": "EPL-1.0",
+              "Confidence": 0.9826866
+            },
+            {
+              "Name": "BSD-3-Clause",
+              "Confidence": 0.97630334
+            },
+            {
+              "Name": "GPL-2.0+",
+              "Confidence": 0.96824855
+            },
+            {
+              "Name": "LGPL-2.1+",
+              "Confidence": 0.9644555
+            },
+            {
+              "Name": "LGPL-2.1-or-later",
+              "Confidence": 0.9644555
+            },
+            {
+              "Name": "LGPL-2.1",
+              "Confidence": 0.9635499
+            },
+            {
+              "Name": "LGPL-2.1-only",
+              "Confidence": 0.9635499
+            },
+            {
+              "Name": "CPL-1.0",
+              "Confidence": 0.94557416
+            },
+            {
+              "Name": "MIT",
+              "Confidence": 0.92814374
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "8.0.29"
+      },
+      "Purl": "pkg:maven/mysql/mysql-connector-java@8.0.29",
+      "Compare": {
+        "Hash": "b23f141d248cd4b65ffb23526d4f9eb1c2f09dbc"
+      }
+    },
+    {
+      "Id": "3f5dc1f8-2b05-477a-b839-7be22cb9a14c",
+      "Name": "net.bytebuddy:byte-buddy-agent",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.12.11"
+      },
+      "Purl": "pkg:maven/net.bytebuddy/byte-buddy-agent@1.12.11",
+      "Compare": {
+        "Hash": "e16757311ccfc7b421d7465546d8e842a45853c6"
+      }
+    },
+    {
+      "Id": "9b2f64fc-8c76-466c-81d3-5b09cbd2284a",
+      "Name": "net.bytebuddy:byte-buddy",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.12.11"
+      },
+      "Purl": "pkg:maven/net.bytebuddy/byte-buddy@1.12.11",
+      "Compare": {
+        "Hash": "fae04fdd4dce1482f716d60a2d8063ff0459e95f"
+      }
+    },
+    {
+      "Id": "0dcaa5f3-555a-47db-9e93-8d082e2bfa88",
+      "Name": "org.apache.logging.log4j:log4j-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.15.0"
+      },
+      "Purl": "pkg:maven/org.apache.logging.log4j/log4j-api@2.15.0",
+      "Compare": {
+        "Hash": "11b29aac920ba6f55f8663a62bb94269594737c9"
+      }
+    },
+    {
+      "Id": "91ea9119-2732-4030-95bd-27b6ac330f54",
+      "Name": "org.apache.logging.log4j:log4j-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.15.0"
+      },
+      "Purl": "pkg:maven/org.apache.logging.log4j/log4j-core@2.15.0",
+      "Compare": {
+        "Hash": "16224c97f0766f93da0e2924fae15fc0f42b909e"
+      }
+    },
+    {
+      "Id": "e473d230-8d1d-45fe-84c3-bde8cf532b85",
+      "Name": "org.apache.logging.log4j:log4j-to-slf4j",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.17.2"
+      },
+      "Purl": "pkg:maven/org.apache.logging.log4j/log4j-to-slf4j@2.17.2",
+      "Compare": {
+        "Hash": "ad85171db7945d2147894451561e94fd1044018e"
+      }
+    },
+    {
+      "Id": "614d641e-2f28-4291-888d-bcc701712ab0",
+      "Name": "org.apache.tomcat.embed:tomcat-embed-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 1
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "9.0.64"
+      },
+      "Purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.64",
+      "Compare": {
+        "Hash": "dcedeeffcad25905eeaa9f3def3581bac047afda"
+      }
+    },
+    {
+      "Id": "f5dc9ee0-06b9-4755-8b78-776ac1b6df27",
+      "Name": "org.apache.tomcat.embed:tomcat-embed-el",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "9.0.64"
+      },
+      "Purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.64",
+      "Compare": {
+        "Hash": "e711336492e4ded616ebcb68c864c8f131835873"
+      }
+    },
+    {
+      "Id": "b49687ca-2cca-426c-bb63-82b0e658fd7b",
+      "Name": "org.apache.tomcat.embed:tomcat-embed-websocket",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "9.0.64"
+      },
+      "Purl": "pkg:maven/org.apache.tomcat.embed/tomcat-embed-websocket@9.0.64",
+      "Compare": {
+        "Hash": "aa9303a435379d525c37901c989bee90c8ee1ce9"
+      }
+    },
+    {
+      "Id": "b4c6c769-9418-41be-abf6-481e6d90b53e",
+      "Name": "org.apiguardian:apiguardian-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.98445594
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.1.2"
+      },
+      "Purl": "pkg:maven/org.apiguardian/apiguardian-api@1.1.2",
+      "Compare": {
+        "Hash": "65f03eb4e49681da3ecb13d09c07eb95cc567546"
+      }
+    },
+    {
+      "Id": "6843dfeb-ab4f-4621-94f2-27d51c57558d",
+      "Name": "org.aspectj:aspectjweaver",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.9.7"
+      },
+      "Purl": "pkg:maven/org.aspectj/aspectjweaver@1.9.7",
+      "Compare": {
+        "Hash": "349370947d2fa9fab0f307a0ef4a6ebfd38e8e70"
+      }
+    },
+    {
+      "Id": "eef8cd01-c9be-41c2-91f1-1693d74d7fae",
+      "Name": "org.assertj:assertj-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "3.22.0"
+      },
+      "Purl": "pkg:maven/org.assertj/assertj-core@3.22.0",
+      "Compare": {
+        "Hash": "fa80930a238b64854b823c3e7061da746b4c0cb8"
+      }
+    },
+    {
+      "Id": "07a111c3-b691-4b5f-9f21-5484cdc92367",
+      "Name": "org.attoparser:attoparser",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.0.5.RELEASE"
+      },
+      "Purl": "pkg:maven/org.attoparser/attoparser@2.0.5.RELEASE",
+      "Compare": {
+        "Hash": "b0cf1ae857980a95fd27ecdea1c7a011222164c3"
+      }
+    },
+    {
+      "Id": "a7f47d59-4990-489d-81a3-a7184876e58f",
+      "Name": "org.checkerframework:checker-qual",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "MIT",
+              "Confidence": 0.93373495
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.5.0"
+      },
+      "Purl": "pkg:maven/org.checkerframework/checker-qual@3.5.0",
+      "Compare": {
+        "Hash": "fda7f25d5029c0d240112fdf2abdbc492ede73e3"
+      }
+    },
+    {
+      "Id": "5be12c4d-363f-47c2-8ea4-ee77f242a520",
+      "Name": "org.ehcache:ehcache",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "3.10.0"
+      },
+      "Purl": "pkg:maven/org.ehcache/ehcache@3.10.0",
+      "Compare": {
+        "Hash": "990fe8814a64f0e7160d6a51a310060667c1c23f"
+      }
+    },
+    {
+      "Id": "b66d8c10-ad23-484c-8168-3dc08c85a8c7",
+      "Name": "org.glassfish.jaxb:jaxb-runtime",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "BSD-3-Clause",
+              "Confidence": 0.9858491
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.3.6"
+      },
+      "Purl": "pkg:maven/org.glassfish.jaxb/jaxb-runtime@2.3.6",
+      "Compare": {
+        "Hash": "4ebbd068a2124b595d18217f2c610df9a2cfff42"
+      }
+    },
+    {
+      "Id": "c6765f73-a91f-4e97-869b-e8e5ee9c0dae",
+      "Name": "org.hamcrest:hamcrest-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.2"
+      },
+      "Purl": "pkg:maven/org.hamcrest/hamcrest-core@2.2",
+      "Compare": {
+        "Hash": "a32fcc9fecda7d775c2623ba3c8167087d6cc764"
+      }
+    },
+    {
+      "Id": "0f53733e-23b1-48d5-8b9e-05f755cff40a",
+      "Name": "org.hamcrest:hamcrest",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.2"
+      },
+      "Purl": "pkg:maven/org.hamcrest/hamcrest@2.2",
+      "Compare": {
+        "Hash": "b8ed4e20fab9a4efe4a6ae0edcea5e1f5a2cead4"
+      }
+    },
+    {
+      "Id": "89b8b14d-5d96-46b7-b361-d7d2d1d9c000",
+      "Name": "org.hibernate.common:hibernate-commons-annotations",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "5.1.2.Final"
+      },
+      "Purl": "pkg:maven/org.hibernate.common/hibernate-commons-annotations@5.1.2.Final",
+      "Compare": {
+        "Hash": "3fc555c31c6896fc431031890c4a0064f99df023"
+      }
+    },
+    {
+      "Id": "fde74fdd-ebdc-49e6-855a-46fe404b7f86",
+      "Name": "org.hibernate.validator:hibernate-validator",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "6.2.3.Final"
+      },
+      "Purl": "pkg:maven/org.hibernate.validator/hibernate-validator@6.2.3.Final",
+      "Compare": {
+        "Hash": "649c4ffa6ee52b33e6902b7ff796c455ae513499"
+      }
+    },
+    {
+      "Id": "8ed28002-5d97-4662-a50e-943386a2f5fd",
+      "Name": "org.hibernate:hibernate-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "5.6.9.Final"
+      },
+      "Purl": "pkg:maven/org.hibernate/hibernate-core@5.6.9.Final",
+      "Compare": {
+        "Hash": "1e75152bdef6600a1e9bce86a8a1e19871487fcb"
+      }
+    },
+    {
+      "Id": "71282ced-74bc-4692-b79a-048512c3a33f",
+      "Name": "org.jboss.logging:jboss-logging",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.4.3.Final"
+      },
+      "Purl": "pkg:maven/org.jboss.logging/jboss-logging@3.4.3.Final",
+      "Compare": {
+        "Hash": "f19e5d3ff3d536f1f91039e8b2e442af187d516a"
+      }
+    },
+    {
+      "Id": "d66cf9aa-70a4-4c93-8c07-6792e3e6416f",
+      "Name": "org.jboss:jandex",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.4.2.Final"
+      },
+      "Purl": "pkg:maven/org.jboss/jandex@2.4.2.Final",
+      "Compare": {
+        "Hash": "ce7bb6267912b516d2489137529ef04c81e9afc6"
+      }
+    },
+    {
+      "Id": "4ab942f2-bcd9-494f-a3aa-6830a178d6fd",
+      "Name": "org.junit.jupiter:junit-jupiter-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.jupiter/junit-jupiter-api@5.8.2",
+      "Compare": {
+        "Hash": "0f8a5895c0f79628c8c46c86dcb6c8842844ae98"
+      }
+    },
+    {
+      "Id": "9eebc3fe-0530-4999-8592-f6ee91ce9a02",
+      "Name": "org.junit.jupiter:junit-jupiter-engine",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.jupiter/junit-jupiter-engine@5.8.2",
+      "Compare": {
+        "Hash": "2afe2680e416422f54fc6f83e207c8638c160708"
+      }
+    },
+    {
+      "Id": "a8c48947-3a7d-4994-ab44-a73918790558",
+      "Name": "org.junit.jupiter:junit-jupiter-migrationsupport",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.jupiter/junit-jupiter-migrationsupport@5.8.2",
+      "Compare": {
+        "Hash": "5949fc036a3bf88900402e84ced4c77be4ac304a"
+      }
+    },
+    {
+      "Id": "ddf33bfa-3468-4ec6-acc9-8df474837f34",
+      "Name": "org.junit.jupiter:junit-jupiter-params",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.jupiter/junit-jupiter-params@5.8.2",
+      "Compare": {
+        "Hash": "ebb4798572b791f28b808a2070110e66d1e0160f"
+      }
+    },
+    {
+      "Id": "af461c13-f49d-4852-97fa-060f3a4eda1a",
+      "Name": "org.junit.platform:junit-platform-commons",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.platform/junit-platform-commons@1.8.2",
+      "Compare": {
+        "Hash": "3dc858f1bdf1907fd7fff446fdf4b4cb52a53544"
+      }
+    },
+    {
+      "Id": "663c436d-b75e-4b26-90ad-2b8141e1acc5",
+      "Name": "org.junit.platform:junit-platform-engine",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.platform/junit-platform-engine@1.8.2",
+      "Compare": {
+        "Hash": "daeb1ab0d63c17e3c5f92cbd1728735f09fec2f0"
+      }
+    },
+    {
+      "Id": "c752ffed-311e-4cdf-ac76-b84e43dee87c",
+      "Name": "org.junit.vintage:junit-vintage-engine",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.md",
+          "LicensesInfo": [
+            {
+              "Name": "EPL-2.0",
+              "Confidence": 0.99810517
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.8.2"
+      },
+      "Purl": "pkg:maven/org.junit.vintage/junit-vintage-engine@5.8.2",
+      "Compare": {
+        "Hash": "d50601cd03e4f2a0ae2a809896909927724109ba"
+      }
+    },
+    {
+      "Id": "b3f3d5b0-770c-43cc-accd-1911751d9609",
+      "Name": "org.latencyutils:LatencyUtils",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.0.3"
+      },
+      "Purl": "pkg:maven/org.latencyutils/LatencyUtils@2.0.3",
+      "Compare": {
+        "Hash": "2f2f35a0fb3a8908c2544421d2ae3932b1cfd010"
+      }
+    },
+    {
+      "Id": "b067c522-4bf1-46dc-995f-769560689dc4",
+      "Name": "org.mockito:mockito-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "4.5.1"
+      },
+      "Purl": "pkg:maven/org.mockito/mockito-core@4.5.1",
+      "Compare": {
+        "Hash": "acb52a2dbe0533d771659b7a4ac1d04271e8eb15"
+      }
+    },
+    {
+      "Id": "f69fcf7d-a11c-4731-ae9e-b4ae43d0589e",
+      "Name": "org.mockito:mockito-junit-jupiter",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "4.5.1"
+      },
+      "Purl": "pkg:maven/org.mockito/mockito-junit-jupiter@4.5.1",
+      "Compare": {
+        "Hash": "e2b2d153bde5411cb4174f5339ab4cae233abdf3"
+      }
+    },
+    {
+      "Id": "9f7c2863-16f0-4f39-a2cd-4bec15d217c9",
+      "Name": "org.objenesis:objenesis",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.2"
+      },
+      "Purl": "pkg:maven/org.objenesis/objenesis@3.2",
+      "Compare": {
+        "Hash": "8fe190da43d147ca71ed81f1ea27c18892d65466"
+      }
+    },
+    {
+      "Id": "2a34a620-c485-4cd1-b572-21c57b528413",
+      "Name": "org.opentest4j:opentest4j",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.2.0"
+      },
+      "Purl": "pkg:maven/org.opentest4j/opentest4j@1.2.0",
+      "Compare": {
+        "Hash": "f025664dd555bffedeaa2da0c8b0d1c7951a762f"
+      }
+    },
+    {
+      "Id": "17a57318-07f3-4b68-a78e-7a4b9f6d2a3b",
+      "Name": "org.postgresql:postgresql",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "42.3.6"
+      },
+      "Purl": "pkg:maven/org.postgresql/postgresql@42.3.6",
+      "Compare": {
+        "Hash": "dd3c790e88698b7b9adfb03259248f736169d624"
+      }
+    },
+    {
+      "Id": "ef357b70-ef8b-410b-aa67-66b8ebfac332",
+      "Name": "org.reactivestreams:reactive-streams",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.0.4"
+      },
+      "Purl": "pkg:maven/org.reactivestreams/reactive-streams@1.0.4",
+      "Compare": {
+        "Hash": "0aedeb24df9c45751cc457f48afbfcc0273cb912"
+      }
+    },
+    {
+      "Id": "197f2bda-8195-4725-93ec-09ae0f7c5c20",
+      "Name": "org.slf4j:jul-to-slf4j",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.7.36"
+      },
+      "Purl": "pkg:maven/org.slf4j/jul-to-slf4j@1.7.36",
+      "Compare": {
+        "Hash": "f6d52f7b56b1e7a16345eef9707f924f60bbbc63"
+      }
+    },
+    {
+      "Id": "180eefdb-a94f-48c9-8ac7-9b0568be8278",
+      "Name": "org.slf4j:slf4j-api",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.7.36"
+      },
+      "Purl": "pkg:maven/org.slf4j/slf4j-api@1.7.36",
+      "Compare": {
+        "Hash": "98c4eefd5d75d3d418f6c2ab002fa81e737920dd"
+      }
+    },
+    {
+      "Id": "6a0af1be-4c87-4638-8904-945ee4d3fad7",
+      "Name": "org.springframework.boot:spring-boot-actuator-autoconfigure",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-actuator-autoconfigure@2.7.1",
+      "Compare": {
+        "Hash": "f11218758c20fccccfdd02109d9083b7b82e1951"
+      }
+    },
+    {
+      "Id": "89dd9662-8dde-418e-b345-b991f7e673d7",
+      "Name": "org.springframework.boot:spring-boot-actuator",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-actuator@2.7.1",
+      "Compare": {
+        "Hash": "242c23ab8a9ad2d33e7652c14d003d64695c9857"
+      }
+    },
+    {
+      "Id": "ef9f8c44-3954-438f-9104-0bdcd4bb007a",
+      "Name": "org.springframework.boot:spring-boot-autoconfigure",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-autoconfigure@2.7.1",
+      "Compare": {
+        "Hash": "f7c7ca9c27086c87cf97687bef4bef0133291c58"
+      }
+    },
+    {
+      "Id": "c2c65d73-1787-43d1-af6d-3848cc553a3f",
+      "Name": "org.springframework.boot:spring-boot-starter-actuator",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-actuator@2.7.1",
+      "Compare": {
+        "Hash": "248b037382f8e0882ef7eacfc6be118b074062a8"
+      }
+    },
+    {
+      "Id": "988a60a9-d702-4fe8-a0bd-77578d83821a",
+      "Name": "org.springframework.boot:spring-boot-starter-aop",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-aop@2.7.1",
+      "Compare": {
+        "Hash": "917c4c7dbc0cc19facf0d881416bbaee9f46ff17"
+      }
+    },
+    {
+      "Id": "5eac7d62-00e3-4ece-8d86-5b5bde5d23d3",
+      "Name": "org.springframework.boot:spring-boot-starter-cache",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-cache@2.7.1",
+      "Compare": {
+        "Hash": "3dbefbc161e0e60cf722d25146ba4ca713893139"
+      }
+    },
+    {
+      "Id": "d11fdd35-82e0-4b66-a948-162475414902",
+      "Name": "org.springframework.boot:spring-boot-starter-data-jpa",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-data-jpa@2.7.1",
+      "Compare": {
+        "Hash": "84b83c3c15169679cb9fcf13b11aa4223cf58fe3"
+      }
+    },
+    {
+      "Id": "3e76e2b8-d32b-4456-8c7f-1d986d114198",
+      "Name": "org.springframework.boot:spring-boot-starter-jdbc",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-jdbc@2.7.1",
+      "Compare": {
+        "Hash": "d24412e0e049e7410670f72ad9afb120f9fbb39f"
+      }
+    },
+    {
+      "Id": "dbfcda58-1bb0-4ee2-a080-bf948e15dad5",
+      "Name": "org.springframework.boot:spring-boot-starter-json",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-json@2.7.1",
+      "Compare": {
+        "Hash": "a7bea4245e8a22319a4e737b8cc3044a6063e8e4"
+      }
+    },
+    {
+      "Id": "97bca0be-8c4f-44ae-9967-5561a7394d6f",
+      "Name": "org.springframework.boot:spring-boot-starter-logging",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-logging@2.7.1",
+      "Compare": {
+        "Hash": "c152fbf3d1e0d1563d2841bcd2e3e596ba79da17"
+      }
+    },
+    {
+      "Id": "9039ede7-5b8c-4556-abf5-b1bfde5a649e",
+      "Name": "org.springframework.boot:spring-boot-starter-thymeleaf",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-thymeleaf@2.7.1",
+      "Compare": {
+        "Hash": "fcf7236a052debf20997dfa429936b33e907ae1d"
+      }
+    },
+    {
+      "Id": "a1eff87b-3251-4b69-98bc-d04a0aa1e0d7",
+      "Name": "org.springframework.boot:spring-boot-starter-tomcat",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-tomcat@2.7.1",
+      "Compare": {
+        "Hash": "d4bcd26251c7d8b169f52e6b725f5c6903f0a475"
+      }
+    },
+    {
+      "Id": "90add9b8-cca3-4922-afcc-341214af7913",
+      "Name": "org.springframework.boot:spring-boot-starter-validation",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-validation@2.7.1",
+      "Compare": {
+        "Hash": "2ebcd9a86ca79395f906fcaaa4eb6fa8cdfcf3d9"
+      }
+    },
+    {
+      "Id": "21ff6228-0506-404a-9102-e36daaed24fe",
+      "Name": "org.springframework.boot:spring-boot-starter-web",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter-web@2.7.1",
+      "Compare": {
+        "Hash": "9631e7757cc28572a25c849979bd5f897b37dfd5"
+      }
+    },
+    {
+      "Id": "fe0dcfea-a3ae-4814-81a0-80f85239e1fa",
+      "Name": "org.springframework.boot:spring-boot-starter",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot-starter@2.7.1",
+      "Compare": {
+        "Hash": "8153d1327fbb5d237e2d0e48b933e57425f031a2"
+      }
+    },
+    {
+      "Id": "35234467-ea57-4157-b6e9-882907635205",
+      "Name": "org.springframework.boot:spring-boot",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9825016
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.boot/spring-boot@2.7.1",
+      "Compare": {
+        "Hash": "272d35ca6e5f413236cc7657188e5f0ae0b56634"
+      }
+    },
+    {
+      "Id": "81cc5a59-d4aa-41a2-8635-fb4c9e80d992",
+      "Name": "org.springframework.cloud:spring-cloud-function-adapter-aws",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.0.2.RELEASE"
+      },
+      "Purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-adapter-aws@1.0.2.RELEASE",
+      "Compare": {
+        "Hash": "010e398f650d954580f985689a6b2229f9a55375"
+      }
+    },
+    {
+      "Id": "58c8fc64-de09-466c-9713-dc8f68bb8662",
+      "Name": "org.springframework.cloud:spring-cloud-function-context",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.0.2.RELEASE"
+      },
+      "Purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-context@1.0.2.RELEASE",
+      "Compare": {
+        "Hash": "4d36d47f50c2875ea4eeaec8976f81922b7ceb89"
+      }
+    },
+    {
+      "Id": "adbb5f87-147a-4cf6-be68-58413889ee02",
+      "Name": "org.springframework.cloud:spring-cloud-function-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.0.2.RELEASE"
+      },
+      "Purl": "pkg:maven/org.springframework.cloud/spring-cloud-function-core@1.0.2.RELEASE",
+      "Compare": {
+        "Hash": "c6caeed53e12d51a4912a99a790492303a3d5f2a"
+      }
+    },
+    {
+      "Id": "2f8a39fc-9944-4851-8d89-803dce09989e",
+      "Name": "org.springframework.data:spring-data-commons",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.data/spring-data-commons@2.7.1",
+      "Compare": {
+        "Hash": "f887f6bae6aa96874a22b840b33f28d44529c525"
+      }
+    },
+    {
+      "Id": "0549ba83-1ab5-40b1-8a58-aa0a5c7e9d16",
+      "Name": "org.springframework.data:spring-data-jpa",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.1"
+      },
+      "Purl": "pkg:maven/org.springframework.data/spring-data-jpa@2.7.1",
+      "Compare": {
+        "Hash": "8aa8b03aa7eeb9295fbf76bd10afb2c7ed68f393"
+      }
+    },
+    {
+      "Id": "d5c0c57e-8da3-476d-bdc6-505f5e1637e4",
+      "Name": "org.springframework.samples:spring-petclinic",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "2.7.0-SNAPSHOT"
+      },
+      "Purl": "pkg:maven/org.springframework.samples/spring-petclinic@2.7.0-SNAPSHOT",
+      "Compare": {
+        "Hash": "e5865fb7a907545b01daabb065d769f567021d55"
+      }
+    },
+    {
+      "Id": "c200e5de-1425-4d54-9b15-d2ebf5148a71",
+      "Name": "org.springframework:spring-aop",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-aop@5.3.21",
+      "Compare": {
+        "Hash": "e8448ba00c309c10f2bd35fb3680da1e6d9f443a"
+      }
+    },
+    {
+      "Id": "a84463eb-a203-4a32-8664-fecb997bd6eb",
+      "Name": "org.springframework:spring-aspects",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-aspects@5.3.21",
+      "Compare": {
+        "Hash": "7fa932fbbb7cbe470d34ee38c0cc570b84ad9823"
+      }
+    },
+    {
+      "Id": "1eee41e4-6ec1-4d78-9a89-4da9eb4a356f",
+      "Name": "org.springframework:spring-beans",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-beans@5.3.21",
+      "Compare": {
+        "Hash": "a00210a525ba883458eb5de64b593383923bf081"
+      }
+    },
+    {
+      "Id": "fc3eeb43-c1bc-44ec-a49d-472be31667e5",
+      "Name": "org.springframework:spring-context-support",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-context-support@5.3.21",
+      "Compare": {
+        "Hash": "9500a801f776b8b9691cc37c7084b6c6872935dd"
+      }
+    },
+    {
+      "Id": "514523a0-bb6d-4371-b6dd-2a29bfced16f",
+      "Name": "org.springframework:spring-context",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-context@5.3.21",
+      "Compare": {
+        "Hash": "35942024a75bb146908b00f634a15887b762dd58"
+      }
+    },
+    {
+      "Id": "40016489-cb3a-47cc-bcdd-6f863e59b3f4",
+      "Name": "org.springframework:spring-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-core@5.3.21",
+      "Compare": {
+        "Hash": "e0de3ddc5bc51e834a501fcb138ec6d61f74ae46"
+      }
+    },
+    {
+      "Id": "a95f9c4f-cc53-43a1-8181-0608d76f9451",
+      "Name": "org.springframework:spring-expression",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-expression@5.3.21",
+      "Compare": {
+        "Hash": "d225f58d57fdd5ccbfc1ce245fa4801df7061157"
+      }
+    },
+    {
+      "Id": "690569f8-e5a5-4730-bd56-fc1ea3845f51",
+      "Name": "org.springframework:spring-jcl",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-jcl@5.3.21",
+      "Compare": {
+        "Hash": "0fa558f1456e59cd850a9cca3e47800d9b0d19a6"
+      }
+    },
+    {
+      "Id": "7b114a0d-a844-4938-98e3-109d65172158",
+      "Name": "org.springframework:spring-jdbc",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-jdbc@5.3.21",
+      "Compare": {
+        "Hash": "1e98e8d8f076a880e209bdd347f752f2c33f2e54"
+      }
+    },
+    {
+      "Id": "358a3e55-8f29-4706-9747-f7488c364898",
+      "Name": "org.springframework:spring-messaging",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-messaging@5.3.21",
+      "Compare": {
+        "Hash": "307d50f1de0cfb2ba5f87f07c8d67bbcc137958a"
+      }
+    },
+    {
+      "Id": "8ba3c9fb-b93c-48ed-a9df-276bd7457869",
+      "Name": "org.springframework:spring-orm",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-orm@5.3.21",
+      "Compare": {
+        "Hash": "357c56f91b8f21dd71ee1b7a34a164d96e1684d4"
+      }
+    },
+    {
+      "Id": "a1ea6ee7-4b24-423a-9b6a-bd395c2ee96f",
+      "Name": "org.springframework:spring-tx",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-tx@5.3.21",
+      "Compare": {
+        "Hash": "81f51a11c38ff62e134adc98bf4ec51a93c9670c"
+      }
+    },
+    {
+      "Id": "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6",
+      "Name": "org.springframework:spring-web",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-web@5.3.21",
+      "Compare": {
+        "Hash": "b56e72a0e73649fa1ac7c356c9e215e64ff1c45d"
+      }
+    },
+    {
+      "Id": "4e1d1185-9b21-4e2c-9021-3e7b4743b5de",
+      "Name": "org.springframework:spring-webmvc",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "license.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9831497
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "5.3.21"
+      },
+      "Purl": "pkg:maven/org.springframework/spring-webmvc@5.3.21",
+      "Compare": {
+        "Hash": "8177d7aaf7f23eef320a8d17f5c9c93bc67d016a"
+      }
+    },
+    {
+      "Id": "8054f265-75f0-4efd-bb46-80d92b3ec730",
+      "Name": "org.thymeleaf.extras:thymeleaf-extras-java8time",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.0.4.RELEASE"
+      },
+      "Purl": "pkg:maven/org.thymeleaf.extras/thymeleaf-extras-java8time@3.0.4.RELEASE",
+      "Compare": {
+        "Hash": "d4f3fd01208c6232a6323879e1e2a7fcc92f416a"
+      }
+    },
+    {
+      "Id": "03a78baf-4838-4404-a950-a5493f1bad17",
+      "Name": "org.thymeleaf:thymeleaf-spring5",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.0.15.RELEASE"
+      },
+      "Purl": "pkg:maven/org.thymeleaf/thymeleaf-spring5@3.0.15.RELEASE",
+      "Compare": {
+        "Hash": "3d28aee90bed86b653ac93ba187ebcc1b943b5b0"
+      }
+    },
+    {
+      "Id": "98d4f30a-ec62-4973-860c-38d493f27406",
+      "Name": "org.thymeleaf:thymeleaf",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "3.0.15.RELEASE"
+      },
+      "Purl": "pkg:maven/org.thymeleaf/thymeleaf@3.0.15.RELEASE",
+      "Compare": {
+        "Hash": "9243732eddcd7130b14945fc4eac658c063e289b"
+      }
+    },
+    {
+      "Id": "f0dc4804-7d2b-4ede-b647-abedf6f39ce8",
+      "Name": "org.unbescape:unbescape",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "LicenseFiles": [
+        {
+          "File": "LICENSE.txt",
+          "LicensesInfo": [
+            {
+              "Name": "Apache-2.0",
+              "Confidence": 0.9851036
+            }
+          ]
+        }
+      ],
+      "Version": {
+        "Type": "maven",
+        "Version": "1.1.6.RELEASE"
+      },
+      "Purl": "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE",
+      "Compare": {
+        "Hash": "c5900bc7c6dd34d012f272abcee7ff2605ac9ba3"
+      }
+    },
+    {
+      "Id": "fe33554d-010b-4112-bed4-e8b21be307ca",
+      "Name": "org.webjars.npm:bootstrap",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "5.1.3"
+      },
+      "Purl": "pkg:maven/org.webjars.npm/bootstrap@5.1.3",
+      "Compare": {
+        "Hash": "d688e6b1dbdcfd4cc83aa718ddabdeefe84e2aac"
+      }
+    },
+    {
+      "Id": "be1efbb4-7d1c-4864-ab57-be3d71db2bb9",
+      "Name": "org.webjars.npm:font-awesome",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "4.7.0"
+      },
+      "Purl": "pkg:maven/org.webjars.npm/font-awesome@4.7.0",
+      "Compare": {
+        "Hash": "f57ceeca80437c7950f2bbb7593c4e8c7a1b5d52"
+      }
+    },
+    {
+      "Id": "90e8d45d-21ca-4857-818c-a82ecb1acd22",
+      "Name": "org.webjars:webjars-locator-core",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "0.50"
+      },
+      "Purl": "pkg:maven/org.webjars/webjars-locator-core@0.50",
+      "Compare": {
+        "Hash": "37bd229010e7b1c5b165cf27335489c2833ad673"
+      }
+    },
+    {
+      "Id": "55e40a60-c91f-4eba-aa39-dc596ad4ac4f",
+      "Name": "org.yaml:snakeyaml",
+      "Type": "maven",
+      "Class": "pkg",
+      "Language": "java",
+      "Version": {
+        "Type": "maven",
+        "Version": "1.30"
+      },
+      "Purl": "pkg:maven/org.yaml/snakeyaml@1.30",
+      "Compare": {
+        "Hash": "8644dfdd9289afc9352a3e00c33329dccf8f89fd"
+      }
+    }
+  ],
+  "Identities": [
+    {
+      "Id": "830afb21-5ede-44fb-bf78-8274664a0e77",
+      "Info": {
+        "Name": "Ryoji Betchaku",
+        "Email": "ryobet@Ryojis-MacBook-Pro.local"
+      },
+      "Compare": {
+        "Hash": "a1dbbae240d86d0c1b56753b22d2861c6efe5722"
+      }
+    },
+    {
+      "Id": "c2846728-c4cf-45a5-8986-6485b13cc146",
+      "Info": {
+        "Name": "Henri Tremblay",
+        "Email": "henri.tremblay@gmail.com"
+      },
+      "Compare": {
+        "Hash": "d98ee69823b8d7a981eb56e1b3e98548b37837c3"
+      }
+    },
+    {
+      "Id": "fbd4a6c6-7ed1-4ab4-b6d2-62a64aeec407",
+      "Info": {
+        "Name": "Stephane Nicoll",
+        "Email": "snicoll@pivotal.io"
+      },
+      "Compare": {
+        "Hash": "524e213e0df3028f50226fad75912876bd3276e6"
+      }
+    },
+    {
+      "Id": "c9b3d38e-92a3-4c75-b53c-1dcb2102f5f3",
+      "Info": {
+        "Name": "Dave Syer",
+        "Email": "dsyer@vmware.com"
+      },
+      "Compare": {
+        "Hash": "02f1c706ec277b5b8c5fe88b9ddaa5a602820e37"
+      }
+    },
+    {
+      "Id": "4c9cec9e-98eb-4de6-9145-6f65940f70a0",
+      "Info": {
+        "Name": "Dave Syer",
+        "Email": "david_syer@hotmail.com"
+      },
+      "Compare": {
+        "Hash": "3c56cd1bfc3c3ceca6a1fca49430e652f4fb7bb5"
+      }
+    },
+    {
+      "Id": "06ed2973-9ddc-4dfe-90a2-424bedc2e6f0",
+      "Info": {
+        "Name": "Dave Syer",
+        "Email": "dsyer@pivotal.io"
+      },
+      "Compare": {
+        "Hash": "02d92c1242b5589b2d4de371a7964917b0258901"
+      }
+    },
+    {
+      "Id": "ffed4293-e550-4bc3-b416-1acd6eaf2fc2",
+      "Info": {
+        "Name": "Fabian Muscariello",
+        "Email": "nroi@mailbox.org"
+      },
+      "Compare": {
+        "Hash": "3c92f04eca000e72db258d1438ca85f616dc9d0d"
+      }
+    }
+  ],
+  "Repositories": [
+    {
+      "Id": "4f719d2e-6300-4a49-a8c6-5a404195e758",
+      "Info": {
+        "Kind": "git",
+        "Location": "https://github.com/ryoji-lacework/spring-petclinic.git",
+        "Branch": "main",
+        "Revision": "036a99f2a28bd9a342db98acd8f1439295356f97",
+        "Timestamp": "2023-06-15T13:21:50-04:00",
+        "DefaultBranch": "main"
+      },
+      "Edits": [
+        {
+          "Id": "e63add1a-644c-4151-90eb-0800371f531a",
+          "Info": {
+            "Time": "2022-07-04T16:12:36-04:00",
+            "Revision": "cbbcef0dcb5298874c482106cbb40afe8c7500eb",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "830afb21-5ede-44fb-bf78-8274664a0e77"
+        },
+        {
+          "Id": "1b415e34-f8b7-4c1b-9075-bd1bef549049",
+          "Info": {
+            "Time": "2017-02-17T06:22:26-05:00",
+            "Revision": "443d35eae23c874ed38305fbe75216339c41beaf",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "c2846728-c4cf-45a5-8986-6485b13cc146"
+        },
+        {
+          "Id": "fca5b12e-9f5b-4cbf-8dbc-8dec461ce9b9",
+          "Info": {
+            "Time": "2018-02-21T04:48:01-05:00",
+            "Revision": "cdd802eeee36f8083580a6cd0368b007cb4a0bad",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "fbd4a6c6-7ed1-4ab4-b6d2-62a64aeec407"
+        },
+        {
+          "Id": "ad409b72-e57c-47da-9f1d-5d41ceba6092",
+          "Info": {
+            "Time": "2021-11-24T02:48:14-05:00",
+            "Revision": "1095a15f0e42cf5ebf0df942022c62fcf4c82e86",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "c9b3d38e-92a3-4c75-b53c-1dcb2102f5f3",
+          "CommitterId": "4c9cec9e-98eb-4de6-9145-6f65940f70a0"
+        },
+        {
+          "Id": "97669d9c-a99b-4e42-8261-ad4c9dd00fa8",
+          "Info": {
+            "Time": "2016-11-10T12:22:02-05:00",
+            "Revision": "e38a9feebe1814ada460dea50ba45f11389fdc9f",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "06ed2973-9ddc-4dfe-90a2-424bedc2e6f0"
+        },
+        {
+          "Id": "2fe1e598-356e-4a51-990e-f1d38a42bf75",
+          "Info": {
+            "Time": "2020-05-02T01:51:21-04:00",
+            "Revision": "d9f37ece5c865ded91b6582828142ccc33e9d54f",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "fbd4a6c6-7ed1-4ab4-b6d2-62a64aeec407"
+        },
+        {
+          "Id": "3dc8379d-a502-48b6-982c-5bc8f330cdf5",
+          "Info": {
+            "Time": "2021-11-24T06:15:44-05:00",
+            "Revision": "83e074940b23ae4fd35e67e20b94a8e4c46687c3",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "c9b3d38e-92a3-4c75-b53c-1dcb2102f5f3"
+        },
+        {
+          "Id": "713d4788-71e6-44e5-b85e-d87fe72ec989",
+          "Info": {
+            "Time": "2020-03-20T13:27:18-04:00",
+            "Revision": "c0847b7571e58a18333addaa691691edebb7491c",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "fbd4a6c6-7ed1-4ab4-b6d2-62a64aeec407"
+        },
+        {
+          "Id": "f8fc9b0e-c5b8-4506-b07c-76114f49b401",
+          "Info": {
+            "Time": "2021-12-07T11:55:01-05:00",
+            "Revision": "ce626da705302e71771b7e22429d1cc3209e7ebb",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "ffed4293-e550-4bc3-b416-1acd6eaf2fc2",
+          "CommitterId": "4c9cec9e-98eb-4de6-9145-6f65940f70a0"
+        },
+        {
+          "Id": "0ed68944-2e7c-4177-b0b1-21a876bd5408",
+          "Info": {
+            "Time": "2022-07-04T12:29:42-04:00",
+            "Revision": "e00c5aa2f60a15455a44754b31218003cc243d5c",
+            "Signature": "unsigned"
+          },
+          "AuthorId": "830afb21-5ede-44fb-bf78-8274664a0e77"
+        }
+      ],
+      "Compare": {
+        "Hash": "647e6e61c969e9fc020653daed4ea102e0afb55b"
+      }
+    }
+  ],
+  "Vulnerabilities": [
+    {
+      "Id": "ab32daac-c098-44bf-8249-80d219473d44",
+      "AffectedArtifactIds": [
+        "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-42004",
+        "Description": "In FasterXML jackson-databind before 2.12.7.1 and in 2.13.x before 2.13.4, resource exhaustion can occur because of a lack of a check in BeanDeserializer._deserializeFromArray to prevent use of deeply nested arrays. An application is vulnerable only with certain customized choices for deserialization.",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42004",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.13.4"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 3.6,
+          "Score": 7.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "a2db20a7a3bc16f42a69f251cf4c441a76fd93c7"
+      }
+    },
+    {
+      "Id": "a50ae092-01a0-4231-be1c-a5a319563a69",
+      "AffectedArtifactIds": [
+        "6cbc54ea-f7eb-43a1-960c-625fb6ee22cf"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-42003",
+        "Description": "In FasterXML jackson-databind 2.4.0-rc1 until 2.12.7.1 and in 2.13.x before 2.13.4.2 resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled. This was patched in 2.12.7.1, 2.13.4.2, and 2.14.0.",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42003",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.13.4.2"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 3.6,
+          "Score": 7.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "b41f1547e3c2592ed9ba1d4d58e4c5d117b4c51e"
+      }
+    },
+    {
+      "Id": "e988e930-92e7-47c2-a4f6-137094e9ea2a",
+      "AffectedArtifactIds": [
+        "cd550430-cbb5-4dda-93c1-8c8bc47647ee"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-45868",
+        "Description": "The web-based admin console in H2 Database Engine through 2.1.214 can be started via the CLI with the argument -webAdminPassword, which allows the user to specify the password in cleartext for the web admin console. Consequently, a local user (or an attacker that has obtained local access through some means) would be able to discover the password by listing processes and their arguments. NOTE: the vendor states \\\\This is not a vulnerability of H2 Console ... Passwords should never be passed on the command line and every qualified DBA or system administrator is expected to know that.\\\\",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45868",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.2.220"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 1.8,
+          "ImpactScore": 5.9,
+          "Score": 7.8,
+          "Vectors": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "674b728bbf0d0cc0483f34b5b75391a94dfd4a3f"
+      }
+    },
+    {
+      "Id": "ddc8f9ce-3056-4078-857c-68c60d97ce04",
+      "AffectedArtifactIds": [
+        "91ea9119-2732-4030-95bd-27b6ac330f54"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2021-45046",
+        "Description": "# Impact\\\\n\\\\nThe fix to address [CVE-2021-44228](https://nvd.nist.gov/vuln/detail/CVE-2021-44228) in Apache Log4j 2.15.0 was incomplete in certain non-default configurations. This could allow attackers with control over Thread Context Map (MDC) input data when the logging configuration uses a non-default Pattern Layout with either a Context Lookup (for example, $${ctx:loginId}) or a Thread Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data using a JNDI Lookup pattern resulting in a remote code execution (RCE) attack. \\\\n\\\\n## Affected packages\\\\nOnly the 'org.apache.logging.log4j:log4j-core' package is directly affected by this vulnerability. The 'org.apache.logging.log4j:log4j-api' should be kept at the same version as the 'org.apache.logging.log4j:log4j-core' package to ensure compatability if in use.\\\\n\\\\n# Mitigation\\\\n\\\\nLog4j 2.16.0 fixes this issue by removing support for message lookup patterns and disabling JNDI functionality by default. This issue can be mitigated in prior releases (\u003c 2.16.0) by removing the JndiLookup class from the classpath (example: zip -q -d log4j-core-*.jar org/apache/logging/log4j/core/lookup/JndiLookup.class).\\\\n\\\\nLog4j 2.15.0 restricts JNDI LDAP lookups to localhost by default. Note that previous mitigations involving configuration such as to set the system property 'log4j2.formatMsgNoLookups' to 'true' do NOT mitigate this specific vulnerability.",
+        "Status": "vulnerable",
+        "Severity": "critical",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45046",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.16.0"
+        },
+        "CVSSv2": {
+          "PublishedDateTime": "2021-12-14T19:15:00Z",
+          "Score": 5.1,
+          "Vectors": "AV:N/AC:H/Au:N/C:P/I:P/A:P"
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.2,
+          "ImpactScore": 6,
+          "Score": 9,
+          "Vectors": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "5f94038ed2bf39b7c9dbb26ab6df824fc6be30da"
+      }
+    },
+    {
+      "Id": "79430167-da75-4299-b765-6debf5cea51a",
+      "AffectedArtifactIds": [
+        "91ea9119-2732-4030-95bd-27b6ac330f54"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2021-45105",
+        "Description": "Apache Log4j2 versions 2.0-alpha1 through 2.16.0 (excluding 2.12.3) did not protect from uncontrolled recursion from self-referential lookups. This allows an attacker with control over Thread Context Map data to cause a denial of service when a crafted string is interpreted. This issue was fixed in Log4j 2.17.0 and 2.12.3.\\\\n\\\\n\\\\n# Affected packages\\\\nOnly the 'org.apache.logging.log4j:log4j-core' package is directly affected by this vulnerability. The 'org.apache.logging.log4j:log4j-api' should be kept at the same version as the 'org.apache.logging.log4j:log4j-core' package to ensure compatability if in use.",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45105",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.17.0"
+        },
+        "CVSSv2": {
+          "PublishedDateTime": "2021-12-18T12:15:00Z",
+          "Score": 4.3,
+          "Vectors": "AV:N/AC:M/Au:N/C:N/I:N/A:P"
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.2,
+          "ImpactScore": 3.6,
+          "Score": 5.9,
+          "Vectors": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "3177e1ab1be67d7dd4c824a127b12bf9a6356781"
+      }
+    },
+    {
+      "Id": "234251cb-3812-40d8-b7de-1131dab616a5",
+      "AffectedArtifactIds": [
+        "91ea9119-2732-4030-95bd-27b6ac330f54"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2021-44832",
+        "Description": "Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to an attack where an attacker with permission to modify the logging configuration file can construct a malicious configuration using a JDBC Appender with a data source referencing a JNDI URI which can execute remote code. This issue is fixed by limiting JNDI data source names to the java protocol in Log4j2 versions 2.17.1, 2.12.4, and 2.3.2.\\\\n\\\\n\\\\n# Affected packages\\\\nOnly the 'org.apache.logging.log4j:log4j-core' package is directly affected by this vulnerability. The 'org.apache.logging.log4j:log4j-api' should be kept at the same version as the 'org.apache.logging.log4j:log4j-core' package to ensure compatability if in use.\\\\n\\\\nThis issue does not impact default configurations of Log4j2 and requires an attacker to have control over the Log4j2 configuration, which reduces the likelihood of being exploited.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44832",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.17.1"
+        },
+        "CVSSv2": {
+          "PublishedDateTime": "2021-12-28T20:15:00Z",
+          "Score": 8.5,
+          "Vectors": "AV:N/AC:M/Au:S/C:C/I:C/A:C"
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 0.7,
+          "ImpactScore": 5.9,
+          "Score": 6.6,
+          "Vectors": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "0daeb1f7b77fd75f02d7dc981a09292e4578d64f"
+      }
+    },
+    {
+      "Id": "8968ff66-6b96-4c5e-abb6-e58de9c95aa8",
+      "AffectedArtifactIds": [
+        "17a57318-07f3-4b68-a78e-7a4b9f6d2a3b"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-31197",
+        "Description": "### Impact\\\\r\\\\n_What kind of vulnerability is it? Who is impacted?_\\\\r\\\\n\\\\r\\\\nThe PGJDBC implementation of the 'java.sql.ResultRow.refreshRow()' method is not performing escaping of column names so a malicious column name that contains a statement terminator, e.g. ';', could lead to SQL injection. This could lead to executing additional SQL commands as the application's JDBC user.\\\\r\\\\n\\\\r\\\\nUser applications that do not invoke the 'ResultSet.refreshRow()' method are not impacted.\\\\r\\\\n\\\\r\\\\nUser application that do invoke that method are impacted if the underlying database that they are querying via their JDBC application may be under the control of an attacker. The attack requires the attacker to trick the user into executing SQL against a table name who's column names would contain the malicious SQL and subsequently invoke the 'refreshRow()' method on the ResultSet.\\\\r\\\\n\\\\r\\\\nFor example:\\\\r\\\\n\\\\r\\\\n'''sql\\\\r\\\\nCREATE TABLE refresh_row_example (\\\\r\\\\n  id     int PRIMARY KEY,\\\\r\\\\n  \\\\1 FROM refresh_row_example; SELECT pg_sleep(10); SELECT * \\\\ int\\\\r\\\\n);\\\\r\\\\n'''\\\\r\\\\n\\\\r\\\\nThis example has a table with two columns. The name of the second column is crafted to contain a statement terminator followed by additional SQL. Invoking the 'ResultSet.refreshRow()' on a ResultSet that queried this table, e.g. 'SELECT * FROM refresh_row', would cause the additional SQL commands such as the 'SELECT pg_sleep(10)' invocation to be executed.\\\\r\\\\n\\\\r\\\\nAs the multi statement command would contain multiple results, it would not be possible for the attacker to get data directly out of this approach as the 'ResultSet.refreshRow()' method would throw an exception. However, the attacker could execute any arbitrary SQL including inserting the data into another table that could then be read or any other DML / DDL statement.\\\\r\\\\n\\\\r\\\\nNote that the application's JDBC user and the schema owner need not be the same. A JDBC application that executes as a privileged user querying database schemas owned by potentially malicious less-privileged users would be vulnerable. In that situation it may be possible for the malicious user to craft a schema that causes the application to execute commands as the privileged user.\\\\r\\\\n\\\\r\\\\n### Patches\\\\r\\\\n_Has the problem been patched? What versions should users upgrade to?_\\\\r\\\\n\\\\r\\\\nYes, versions 42.2.26, 42.3.7, and 42.4.1 have been released with a fix.\\\\r\\\\n\\\\r\\\\n### Workarounds\\\\r\\\\n_Is there a way for users to fix or remediate the vulnerability without upgrading?_\\\\r\\\\n\\\\r\\\\nCheck that you are not using the 'ResultSet.refreshRow()' method.\\\\r\\\\n\\\\r\\\\nIf you are, ensure that the code that executes that method does not connect to a database that is controlled by an unauthenticated or malicious user. If your application only connects to its own database with a fixed schema with no DDL permissions, then you will not be affected by this vulnerability as it requires a maliciously crafted schema.\\\\r\\\\n",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31197",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "42.3.7"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.1,
+          "ImpactScore": 5.9,
+          "Score": 8,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "56ee21f6e111ad51a859cbce8c593f7877e2f5df"
+      }
+    },
+    {
+      "Id": "29b10c42-cc96-46d3-a5ab-fc824542919c",
+      "AffectedArtifactIds": [
+        "17a57318-07f3-4b68-a78e-7a4b9f6d2a3b"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-41946",
+        "Description": "**Vulnerability**\\\\n\\\\n'PreparedStatement.setText(int, InputStream)'\\\\nand\\\\n\\\\n'PreparedStatemet.setBytea(int, InputStream)'\\\\n\\\\nwill create a temporary file if the InputStream is larger than 51k\\\\n\\\\n \\\\nExample of vulnerable code:\\\\n\\\\n'''java\\\\nString s = \\\\some very large string greater than 51200 bytes\\\\;\\\\n\\\\nPreparedStatement.setInputStream(1, new ByteArrayInputStream(s.getBytes()) );\\\\n'''\\\\nThis will create a temporary file which is readable by other users on Unix like systems, but not MacOS.\\\\n\\\\nImpact\\\\nOn Unix like systems, the system's temporary directory is shared between all users on that system. Because of this, when files and directories are written into this directory they are, by default, readable by other users on that same system.\\\\n\\\\nThis vulnerability does not allow other users to overwrite the contents of these directories or files. This is purely an information disclosure vulnerability.\\\\n\\\\nWhen analyzing the impact of this vulnerability, here are the important questions to ask:\\\\n\\\\nIs the driver running in an environment where the OS has other untrusted users.\\\\nIf yes, and you answered 'yes' to question 1, this vulnerability impacts you.\\\\nIf no, this vulnerability does not impact you.\\\\nPatches\\\\nBecause certain JDK file system APIs were only added in JDK 1.7, this this fix is dependent upon the version of the JDK you are using.\\\\n\\\\nJava 1.8 and higher users: this vulnerability is fixed in 42.2.27, 42.3.8, 42.4.3, 42.5.1\\\\nJava 1.7 users: this vulnerability is fixed in 42.2.27.jre7\\\\nJava 1.6 and lower users: no patch is available; you must use the workaround below.\\\\nWorkarounds\\\\nIf you are unable to patch, or are stuck running on Java 1.6, specifying the java.io.tmpdir system environment variable to a directory that is exclusively owned by the executing user will fix this vulnerability.\\\\n\\\\nReferences\\\\n[CWE-200: Exposure of Sensitive Information to an Unauthorized Actor](https://cwe.mitre.org/data/definitions/200.html)\\\\nFix commit https://github.com/pgjdbc/pgjdbc/commit/9008dc9aade6dbfe4efafcd6872ebc55f4699cf5\\\\nSimilar Vulnerabilities\\\\nGoogle Guava - https://github.com/google/guava/issues/4011\\\\nApache Ant - https://nvd.nist.gov/vuln/detail/CVE-2020-1945\\\\nJetBrains Kotlin Compiler - https://nvd.nist.gov/vuln/detail/CVE-2020-15824",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41946",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "42.3.8"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 1.8,
+          "ImpactScore": 3.6,
+          "Score": 5.5,
+          "Vectors": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+        }
+      },
+      "Compare": {
+        "Hash": "330b0eb724bd2b8f2a2e99d1c88b9f125d5c459f"
+      }
+    },
+    {
+      "Id": "1f81a012-478d-4602-a55a-92ea931ae972",
+      "AffectedArtifactIds": [
+        "6a0af1be-4c87-4638-8904-945ee4d3fad7"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2023-20873",
+        "Description": "In Spring Boot versions 3.0.0 - 3.0.5, 2.7.0 - 2.7.10, and older unsupported versions, an application that is deployed to Cloud Foundry could be susceptible to a security bypass. Users of affected versions should apply the following mitigation: 3.0.x users should upgrade to 3.0.6+. 2.7.x users should upgrade to 2.7.11+. Users of older, unsupported versions should upgrade to 3.0.6+ or 2.7.11+.",
+        "Status": "vulnerable",
+        "Severity": "critical",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20873",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.7.11"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 5.9,
+          "Score": 9.8,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "c2b2470fc209233a850e9d0ba8be82816f42524b"
+      }
+    },
+    {
+      "Id": "1aebc059-7b7e-47b8-a047-5b09dddaa34b",
+      "AffectedArtifactIds": [
+        "ef9f8c44-3954-438f-9104-0bdcd4bb007a"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2023-20883",
+        "Description": "In Spring Boot versions 3.0.0 - 3.0.6, 2.7.0 - 2.7.11, 2.6.0 - 2.6.14, 2.5.0 - 2.5.14 and older unsupported versions, there is potential for a denial-of-service (DoS) attack if Spring MVC is used together with a reverse proxy cache.\\\\n\\\\nSpecifically, an application is vulnerable if all of the conditions are true:\\\\n\\\\n* The application has Spring MVC auto-configuration enabled. This is the case by default if Spring MVC is on the classpath.\\\\n* The application makes use of Spring Boot's welcome page support, either static or templated.\\\\n* Your application is deployed behind a proxy which caches 404 responses.\\\\n\\\\nYour application is NOT vulnerable if any of the following are true:\\\\n\\\\n* Spring MVC auto-configuration is disabled. This is true if WebMvcAutoConfiguration is explicitly excluded, if Spring MVC is not on the classpath, or if spring.main.web-application-type is set to a value other than SERVLET.\\\\n* The application does not use Spring Boot's welcome page support.\\\\n* You do not have a proxy which caches 404 responses.\\\\n\\\\n\\\\nAffected Spring Products and Versions\\\\n\\\\nSpring Boot\\\\n\\\\n3.0.0 to 3.0.6 2.7.0 to 2.7.11 2.6.0 to 2.6.14 2.5.0 to 2.5.14\\\\n\\\\nOlder, unsupported versions are also affected\\\\nMitigation\\\\n\\\\nUsers of affected versions should apply the following mitigations:\\\\n\\\\n* 3.0.x users should upgrade to 3.0.7+\\\\n* 2.7.x users should upgrade to 2.7.12+\\\\n* 2.6.x users should upgrade to 2.6.15+\\\\n* 2.5.x users should upgrade to 2.5.15+\\\\n\\\\nUsers of older, unsupported versions should upgrade to 3.0.7+ or 2.7.12+.\\\\n\\\\nWorkarounds: configure the reverse proxy not to cache 404 responses and/or not to cache responses to requests to the root (/) of the application.",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20883",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.7.12"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 3.6,
+          "Score": 7.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "225d6107139a6dc125454f6a1bfaae3fab4561aa"
+      }
+    },
+    {
+      "Id": "c671bb1d-a089-4520-aed9-bdab6cb4786c",
+      "AffectedArtifactIds": [
+        "58c8fc64-de09-466c-9713-dc8f68bb8662",
+        "adbb5f87-147a-4cf6-be68-58413889ee02"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-22963",
+        "Description": "In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a specially crafted SpEL as a routing-expression that may result in remote code execution and access to local resources.",
+        "Status": "vulnerable",
+        "Severity": "critical",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22963",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "3.2.3"
+        },
+        "CVSSv2": {
+          "PublishedDateTime": "2022-04-01T23:15:00Z",
+          "Score": 7.5,
+          "Vectors": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 5.9,
+          "Score": 9.8,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "7ab1ee6ddaf9141b352a609abe4fcb72c1b77d63"
+      }
+    },
+    {
+      "Id": "4d580941-e06c-442c-a910-d46622688897",
+      "AffectedArtifactIds": [
+        "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2023-20861",
+        "Description": "In Spring Framework versions 6.0.0 - 6.0.6, 5.3.0 - 5.3.25, 5.2.0.RELEASE - 5.2.22.RELEASE, and older unsupported versions, it is possible for a user to provide a specially crafted SpEL expression that may cause a denial-of-service (DoS) condition.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20861",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "5.3.26"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.8,
+          "ImpactScore": 3.6,
+          "Score": 6.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "a0eafd38597d125d1ab17ccf9970f982f20f865e"
+      }
+    },
+    {
+      "Id": "918e3293-3f8f-40d7-a5a6-d6918dbb292a",
+      "AffectedArtifactIds": [
+        "40016489-cb3a-47cc-bcdd-6f863e59b3f4"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2023-20863",
+        "Description": "In Spring Framework versions prior to 5.2.24.release+ , 5.3.27+ and 6.0.8+ , it is possible for a user to provide a specially crafted Spring Expression Language (SpEL) expression that may cause a denial-of-service (DoS) condition.",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20863",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "5.3.27"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.8,
+          "ImpactScore": 3.6,
+          "Score": 6.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "be1b53a07480d6cbf418170bc3154caea5c7be18"
+      }
+    },
+    {
+      "Id": "5618ec9c-7683-4423-8467-bdbe17d81ada",
+      "AffectedArtifactIds": [
+        "4ddcfd0d-c344-4b21-966e-f3ea0f0d61e6"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2016-1000027",
+        "Description": "Pivotal Spring Framework before 6.0.0 suffers from a potential remote code execution (RCE) issue if used for Java deserialization of untrusted data. Depending on how the library is implemented within a product, this issue may or not occur, and authentication may be required.\\\\n\\\\nMaintainers recommend investigating alternative components or a potential mitigating control. Version 4.2.6 and 3.2.17 contain [enhanced documentation](https://github.com/spring-projects/spring-framework/commit/5cbe90b2cd91b866a5a9586e460f311860e11cfa) advising users to take precautions against unsafe Java deserialization, version 5.3.0 [deprecate the impacted classes](https://github.com/spring-projects/spring-framework/issues/25379) and version 6.0.0 [removed it entirely](https://github.com/spring-projects/spring-framework/issues/27422).",
+        "Status": "vulnerable",
+        "Severity": "critical",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000027",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "6.0.0"
+        },
+        "CVSSv2": {
+          "PublishedDateTime": "2020-01-02T23:15:00Z",
+          "Score": 7.5,
+          "Vectors": "AV:N/AC:L/Au:N/C:P/I:P/A:P"
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 5.9,
+          "Score": 9.8,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "974aa0826366b14264d4f3a39f441b0c545d4ea7"
+      }
+    },
+    {
+      "Id": "445787fb-f219-4de5-948d-5ab1ae682b59",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-38750",
+        "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38750",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "1.31"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 1.8,
+          "ImpactScore": 3.6,
+          "Score": 5.5,
+          "Vectors": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "345e7e707013ed1394b204283dae250fdbb2958b"
+      }
+    },
+    {
+      "Id": "54831c2f-1d95-4b78-a73a-d7a128e34587",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-38749",
+        "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38749",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "1.31"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.8,
+          "ImpactScore": 3.6,
+          "Score": 6.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "8872daf4fe889cd94efdd77ba9f6bd0088fe39b5"
+      }
+    },
+    {
+      "Id": "2c7f1d23-9c44-4bc9-aac5-5f3da3b388da",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-38751",
+        "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stackoverflow.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38751",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "1.31"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.8,
+          "ImpactScore": 3.6,
+          "Score": 6.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "83afe5b02739dc0fac1d830779e365d27f539156"
+      }
+    },
+    {
+      "Id": "b3852d46-6b40-4f58-a316-38d995047655",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-25857",
+        "Description": "The package org.yaml:snakeyaml from 0 and before 1.31 are vulnerable to Denial of Service (DoS) due missing to nested depth limitation for collections.",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25857",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "1.31"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 3.6,
+          "Score": 7.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "5101ed2c5f565504ea6c244e5be5d52db0e6e44f"
+      }
+    },
+    {
+      "Id": "f9fc836f-76dc-4e01-9728-17a5f3aacdfe",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-38752",
+        "Description": "Using snakeYAML to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DoS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack-overflow.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38752",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "1.32"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.8,
+          "ImpactScore": 3.6,
+          "Score": 6.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "778ed3cc8844a15f0ed1ef12e0185cdd80cf8e65"
+      }
+    },
+    {
+      "Id": "1fef3b0f-8165-4d38-97dd-8fe5b5eef31e",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-41854",
+        "Description": "Those using Snakeyaml to parse untrusted YAML files may be vulnerable to Denial of Service attacks (DOS). If the parser is running on user supplied input, an attacker may supply content that causes the parser to crash by stack overflow. This effect may support a denial of service attack.",
+        "Status": "vulnerable",
+        "Severity": "medium",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41854",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "1.32"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 2.8,
+          "ImpactScore": 3.6,
+          "Score": 6.5,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "f669b13f0008cf057771e70f53524689f0f779b8"
+      }
+    },
+    {
+      "Id": "30d6acd7-f8fc-4f5d-a25a-92558a76a3bd",
+      "AffectedArtifactIds": [
+        "55e40a60-c91f-4eba-aa39-dc596ad4ac4f"
+      ],
+      "Info": {
+        "ExternalId": "CVE-2022-1471",
+        "Description": "### Summary\\\\nSnakeYaml's 'Constructor' class, which inherits from 'SafeConstructor', allows any type be deserialized given the following line:\\\\n\\\\nnew Yaml(new Constructor(TestDataClass.class)).load(yamlContent);\\\\n\\\\nTypes do not have to match the types of properties in the target class. A 'ConstructorException' is thrown, but only after a malicious payload is deserialized.\\\\n\\\\n### Severity\\\\nHigh, lack of type checks during deserialization allows remote code execution.\\\\n\\\\n### Proof of Concept\\\\nExecute 'bash run.sh'. The PoC uses Constructor to deserialize a payload\\\\nfor RCE. RCE is demonstrated by using a payload which performs a http request to\\\\nhttp://127.0.0.1:8000.\\\\n\\\\nExample output of successful run of proof of concept:\\\\n\\\\n'''\\\\n$ bash run.sh\\\\n\\\\n[+] Downloading snakeyaml if needed\\\\n[+] Starting mock HTTP server on 127.0.0.1:8000 to demonstrate RCE\\\\nnc: no process found\\\\n[+] Compiling and running Proof of Concept, which a payload that sends a HTTP request to mock web server.\\\\n[+] An exception is expected.\\\\nException:\\\\nCannot create property=payload for JavaBean=Main$TestDataClass@3cbbc1e0\\\\n in 'string', line 1, column 1:\\\\n    payload: !!javax.script.ScriptEn ... \\\\n    ^\\\\nCan not set java.lang.String field Main$TestDataClass.payload to javax.script.ScriptEngineManager\\\\n in 'string', line 1, column 10:\\\\n    payload: !!javax.script.ScriptEngineManag ... \\\\n             ^\\\\n\\\\n\\\\tat org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:291)\\\\n\\\\tat org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.construct(Constructor.java:172)\\\\n\\\\tat org.yaml.snakeyaml.constructor.Constructor$ConstructYamlObject.construct(Constructor.java:332)\\\\n\\\\tat org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:230)\\\\n\\\\tat org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:220)\\\\n\\\\tat org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:174)\\\\n\\\\tat org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:158)\\\\n\\\\tat org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:491)\\\\n\\\\tat org.yaml.snakeyaml.Yaml.load(Yaml.java:416)\\\\n\\\\tat Main.main(Main.java:37)\\\\nCaused by: java.lang.IllegalArgumentException: Can not set java.lang.String field Main$TestDataClass.payload to javax.script.ScriptEngineManager\\\\n\\\\tat java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:167)\\\\n\\\\tat java.base/jdk.internal.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:171)\\\\n\\\\tat java.base/jdk.internal.reflect.UnsafeObjectFieldAccessorImpl.set(UnsafeObjectFieldAccessorImpl.java:81)\\\\n\\\\tat java.base/java.lang.reflect.Field.set(Field.java:780)\\\\n\\\\tat org.yaml.snakeyaml.introspector.FieldProperty.set(FieldProperty.java:44)\\\\n\\\\tat org.yaml.snakeyaml.constructor.Constructor$ConstructMapping.constructJavaBean2ndStep(Constructor.java:286)\\\\n\\\\t... 9 more\\\\n[+] Dumping Received HTTP Request. Will not be empty if PoC worked\\\\nGET /proof-of-concept HTTP/1.1\\\\nUser-Agent: Java/11.0.14\\\\nHost: localhost:8000\\\\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\\\\nConnection: keep-alive\\\\n'''\\\\n\\\\n### Further Analysis\\\\nPotential mitigations include, leveraging SnakeYaml's SafeConstructor while parsing untrusted content.\\\\n\\\\nSee https://bitbucket.org/snakeyaml/snakeyaml/issues/561/cve-2022-1471-vulnerability-in#comment-64581479 for discussion on the subject.\\\\n\\\\nA fix was released in version 2.0. See https://bitbucket.org/snakeyaml/snakeyaml/issues/561/cve-2022-1471-vulnerability-in#comment-64876314 for more information.\\\\n\\\\n### Timeline\\\\n**Date reported**: 4/11/2022\\\\n**Date fixed**: \\\\n**Date disclosed**: 10/13/2022",
+        "Status": "vulnerable",
+        "Severity": "high",
+        "Link": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1471",
+        "FixVersion": {
+          "Type": "maven",
+          "Version": "2.0"
+        },
+        "CVSSv2": {
+          "Score": 0,
+          "Vectors": ""
+        },
+        "CVSSv3": {
+          "ExploitabilityScore": 3.9,
+          "ImpactScore": 5.9,
+          "Score": 9.8,
+          "Vectors": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        }
+      },
+      "Compare": {
+        "Hash": "ff68c99534e0bfaafb21507a502623f04b5daaa8"
+      }
+    }
+  ],
+  "LicenseViolations": [
+    {
+      "Id": "209ebf24-161e-425e-bdea-c3a42c58c97f",
+      "AffectedArtifactIds": [
+        "97575a13-ec80-4b9b-9300-dca52749e394"
+      ],
+      "Info": {
+        "Category": "unknown",
+        "FoundLicense": "LGPL-2.1-or-later"
+      }
+    },
+    {
+      "Id": "6fae640f-45fe-448e-ad8d-309d87c47571",
+      "AffectedArtifactIds": [
+        "97575a13-ec80-4b9b-9300-dca52749e394"
+      ],
+      "Info": {
+        "Category": "unknown",
+        "FoundLicense": "LGPL-2.1-only"
+      }
+    }
+  ]
+}
