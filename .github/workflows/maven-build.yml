@@ -40,8 +40,8 @@ jobs:
           IMAGE_TAG: 2.7.0-SNAPSHOT
           BUILD_REPORT_FILE_NAME: myreport.html
           SAVE_RESULTS_IN_LACEWORK: true
-          INPUT_FAIL-ON-VIOLATION-EXIT-CODE: true
-
+        env:
+          FAIL-ON-VIOLATION-EXIT-CODE: true
           #SCAN_LIBRARY_PACKAGES: true
           #FAIL_BUILD: true 
           #SEVERITY_THRESHOLD: high
