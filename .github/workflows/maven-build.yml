@@ -39,8 +39,8 @@ jobs:
           IMAGE_NAME: spring-petclinic
           IMAGE_TAG: 2.7.0-SNAPSHOT
           BUILD_REPORT_FILE_NAME: myreport.html
-          SAVE_RESULTS_IN_LACEWORK: true
-          SCAN_LIBRARY_PACKAGES: true
+          LW_SCANNER_SAVE_RESULTS: true
+          #SCAN_LIBRARY_PACKAGES: true
           #FAIL_BUILD: true 
           #SEVERITY_THRESHOLD: high
           #USE_POLICY: false
