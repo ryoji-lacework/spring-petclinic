@@ -41,7 +41,8 @@ jobs:
           BUILD_REPORT_FILE_NAME: myreport.html
           SAVE_RESULTS_IN_LACEWORK: true
           ADDITIONAL_PARAMETERS: fail-on-violation-exit-code 1
+          RESULTS_IN_GITHUB_SUMMARY: true
           #SCAN_LIBRARY_PACKAGES: true
           #FAIL_BUILD: true 
-          SEVERITY_THRESHOLD: high
+          #SEVERITY_THRESHOLD: high
           #USE_POLICY: false
