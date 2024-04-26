@@ -30,15 +30,15 @@ jobs:
     name: Run analysis
     strategy:
       matrix:
-        target: [new]
+        target: [new, old]
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
-      - name: Checkout old
-        if: ${{ matrix.target == 'old' }}
-        run: git checkout HEAD^1
+      # - name: Checkout repository
+      #   uses: actions/checkout@v3
+      #   with:
+      #     fetch-depth: 2
+      # - name: Checkout old
+      #   if: ${{ matrix.target == 'old' }}
+      #   run: git checkout HEAD^1
       - name: Analyze
         uses: lacework/code-security-action@v1
         with:
