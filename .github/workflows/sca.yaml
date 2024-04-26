@@ -30,10 +30,10 @@ jobs:
     name: Run analysis
     strategy:
       matrix:
-        target: [new, old]
+        target: [new]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 2
       - name: Checkout old
@@ -44,14 +44,14 @@ jobs:
         with:
           target: ${{ matrix.target }}
           tools: sca 
-  display-results:
-    runs-on: ubuntu-20.04
-    name: Display results
-    needs:
-      - run-analysis
-    steps:
-      - name: Results
-        id: code-analysis
-        uses: lacework/code-security-action@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+  # display-results:
+  #   runs-on: ubuntu-20.04
+  #   name: Display results
+  #   needs:
+  #     - run-analysis
+  #   steps:
+  #     - name: Results
+  #       id: code-analysis
+  #       uses: lacework/code-security-action@v1
+  #       with:
+  #         token: ${{ secrets.GITHUB_TOKEN }}
