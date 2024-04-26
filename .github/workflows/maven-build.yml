@@ -1,0 +1,50 @@
+# 
+# This workflow will 
+# 1. build a Java container image using Maeen Wrapper (./mvnw spring-boot:build-image)
+# 2. Scan the container image using LW Scanner 
+# 3.   
+#
+# For more information see: https://help.github.com/actions/language-and-framework-guides/building-and-testing-java-with-maven
+
+name: Java CI with Maven
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+          cache: maven
+      - name: Build with Maven Wrapper (Build container image (if you have a docker daemon) using the Spring Boot build plugin)
+        #run: ./mvnw -B package .
+        run: ./mvnw spring-boot:build-image
+        
+      - name: Scan container images for vulnerabitilies using Lacework
+        uses: lacework/lw-scanner-action@v1.4.0
+        with:
+          LW_ACCOUNT_NAME: ${{ secrets.LW_ACCOUNT_NAME }} 
+          LW_ACCESS_TOKEN: ${{ secrets.LW_ACCESS_TOKEN }}
+          IMAGE_NAME: spring-petclinic
+          IMAGE_TAG: 2.7.0-SNAPSHOT
+          SAVE_RESULTS_IN_LACEWORK: true
+          #LW_SCANNER_SAVE_RESULTS: true
+          #BUILD_REPORT_FILE_NAME: myreport.html
+          #SAVE_RESULTS_IN_LACEWORK: true
+          #ADDITIONAL_PARAMETERS: fail-on-violation-exit-code 1
+          #RESULTS_IN_GITHUB_SUMMARY: true
+          #SCAN_LIBRARY_PACKAGES: true
+          #FAIL_BUILD: true 
+          #SEVERITY_THRESHOLD: high
+          #USE_POLICY: false
